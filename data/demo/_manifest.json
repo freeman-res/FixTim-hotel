@@ -1,0 +1,72 @@
+[
+  {
+    "generated_at": "2026-10-26T19:14:48.962207+00:00",
+    "sources_imported": {
+      "hotels": {
+        "file": "hotels-russia.csv",
+        "rows_imported": 30555,
+        "rows_dropped": 0,
+        "output": "data/demo/hotels.json"
+      },
+      "destinations": {
+        "file": "cities.csv",
+        "rows_imported": 180,
+        "rows_dropped": 0,
+        "output": "data/demo/destinations.json"
+      },
+      "transport_options": {
+        "files": [
+          "flights_ru.csv",
+          "buses_full.csv"
+        ],
+        "rows_imported": 62587,
+        "rows_dropped": 8011,
+        "breakdown": {
+          "plane": 11122,
+          "bus": 51465,
+          "train": 0
+        },
+        "output": "data/demo/transport_options.json"
+      }
+    },
+    "sources_missing": [
+      {
+        "expected_file": "reviews.json",
+        "reason": "no review source dataset provided",
+        "impact": "RAG retrieve_reviews will fall back to no results; RAG over hotel search_text still works"
+      },
+      {
+        "expected_file": "climate.json",
+        "reason": "no climate/weather source dataset provided",
+        "impact": "get_climate will return None"
+      },
+      {
+        "expected_file": "transfer_options.json",
+        "reason": "no transfer source dataset provided",
+        "impact": "find_transfers will return []"
+      },
+      {
+        "expected_file": "train_options.json",
+        "reason": "no railway source dataset provided",
+        "impact": "find_transport(type=train) will return []"
+      },
+      {
+        "expected_file": "offers.json",
+        "reason": "no bookable offers/prices dataset provided",
+        "impact": "hotels have price=null; find_offers returns hotels without prices"
+      }
+    ],
+    "known_limitations": [
+      "hotels: osm_id missing in 100% rows; hotel_id generated from row index",
+      "hotels: city missing in ~83% rows; use geo haversine in search/geo.py",
+      "hotels: stars missing in ~87% rows; stored as null, not 0",
+      "flights: no price data in flights_ru.csv; price=null for all planes",
+      "flights: departure/arrival in UTC; timezone per city not provided",
+      "buses: prices are route-level ranges, NOT per-departure (price.scope=route_level_range_NOT_per_departure)",
+      "buses: availability_confirmed=False for all rows -> status='unconfirmed'",
+      "buses: to_station missing in 100% rows of buses_full.csv",
+      "destinations: no climate, seasonality or budget in cities.csv",
+      "cross-source: cities.csv is Cyrillic, flights_ru.csv is Latin; no automatic city linking without a translation dictionary"
+    ]
+  }
+]

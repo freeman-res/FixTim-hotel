@@ -1,0 +1,4142 @@
+[
+  {
+    "destination_id": "dest_oktmo_95701000001",
+    "name": "Абакан",
+    "region": "Республика Хакасия",
+    "oktmo": "95701000001",
+    "location": {
+      "latitude": 53.7223055,
+      "longitude": 91.4436926
+    },
+    "population": 184769,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_92608101001",
+    "name": "Альметьевск",
+    "region": "Республика Татарстан",
+    "oktmo": "92608101001",
+    "location": {
+      "latitude": 54.9014385,
+      "longitude": 52.297123
+    },
+    "population": 163512,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_77701000001",
+    "name": "Анадырь",
+    "region": "Чукотский автономный округ",
+    "oktmo": "77701000001",
+    "location": {
+      "latitude": 64.7314035,
+      "longitude": 177.5015039
+    },
+    "population": 13202,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_25703000001",
+    "name": "Ангарск",
+    "region": "Иркутская область",
+    "oktmo": "25703000001",
+    "location": {
+      "latitude": 52.544898,
+      "longitude": 103.8884509
+    },
+    "population": 221296,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_22703000001",
+    "name": "Арзамас",
+    "region": "Нижегородская область",
+    "oktmo": "22703000001",
+    "location": {
+      "latitude": 55.3946343,
+      "longitude": 43.8408135
+    },
+    "population": 104908,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_03705000001",
+    "name": "Армавир",
+    "region": "Краснодарский край",
+    "oktmo": "03705000001",
+    "location": {
+      "latitude": 45.0011356,
+      "longitude": 41.1324283
+    },
+    "population": 187177,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_05705000001",
+    "name": "Артем",
+    "region": "Приморский край",
+    "oktmo": "05705000001",
+    "location": {
+      "latitude": 43.3501868,
+      "longitude": 132.1595835
+    },
+    "population": 109556,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_11701000001",
+    "name": "Архангельск",
+    "region": "Архангельская область",
+    "oktmo": "11701000001",
+    "location": {
+      "latitude": 64.53939,
+      "longitude": 40.5170011
+    },
+    "population": 301199,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_12701000001",
+    "name": "Астрахань",
+    "region": "Астраханская область",
+    "oktmo": "12701000001",
+    "location": {
+      "latitude": 46.3656435,
+      "longitude": 48.0559229
+    },
+    "population": 475629,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_04703000001",
+    "name": "Ачинск",
+    "region": "Красноярский край",
+    "oktmo": "04703000001",
+    "location": {
+      "latitude": 56.2537315,
+      "longitude": 90.4793969
+    },
+    "population": 100621,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_63607101001",
+    "name": "Балаково",
+    "region": "Саратовская область",
+    "oktmo": "63607101001",
+    "location": {
+      "latitude": 52.0222817,
+      "longitude": 47.7827796
+    },
+    "population": 184466,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46704000001",
+    "name": "Балашиха",
+    "region": "Московская область",
+    "oktmo": "46704000001",
+    "location": {
+      "latitude": 55.796991,
+      "longitude": 37.938104
+    },
+    "population": 520962,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_01701000001",
+    "name": "Барнаул",
+    "region": "Алтайский край",
+    "oktmo": "01701000001",
+    "location": {
+      "latitude": 53.3479774,
+      "longitude": 83.7798977
+    },
+    "population": 630877,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60707000001",
+    "name": "Батайск",
+    "region": "Ростовская область",
+    "oktmo": "60707000001",
+    "location": {
+      "latitude": 47.1382139,
+      "longitude": 39.750662
+    },
+    "population": 126988,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_14701000001",
+    "name": "Белгород",
+    "region": "Белгородская область",
+    "oktmo": "14701000001",
+    "location": {
+      "latitude": 50.5975582,
+      "longitude": 36.5858422
+    },
+    "population": 339978,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_50708000001",
+    "name": "Бердск",
+    "region": "Новосибирская область",
+    "oktmo": "50708000001",
+    "location": {
+      "latitude": 54.7582184,
+      "longitude": 83.1071527
+    },
+    "population": 102850,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_57708000001",
+    "name": "Березники",
+    "region": "Пермский край",
+    "oktmo": "57708000001",
+    "location": {
+      "latitude": 59.4079119,
+      "longitude": 56.8039179
+    },
+    "population": 138069,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_01705000001",
+    "name": "Бийск",
+    "region": "Алтайский край",
+    "oktmo": "01705000001",
+    "location": {
+      "latitude": 52.5392784,
+      "longitude": 85.213843
+    },
+    "population": 183852,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_99701000001",
+    "name": "Биробиджан",
+    "region": "Еврейская автономная область",
+    "oktmo": "99701000001",
+    "location": {
+      "latitude": 48.7946217,
+      "longitude": 132.9217228
+    },
+    "population": 70064,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_10701000001",
+    "name": "Благовещенск",
+    "region": "Амурская область",
+    "oktmo": "10701000001",
+    "location": {
+      "latitude": 50.290659,
+      "longitude": 127.527198
+    },
+    "population": 241437,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_25714000001",
+    "name": "Братск",
+    "region": "Иркутская область",
+    "oktmo": "25714000001",
+    "location": {
+      "latitude": 56.1514087,
+      "longitude": 101.6341027
+    },
+    "population": 224071,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_15701000001",
+    "name": "Брянск",
+    "region": "Брянская область",
+    "oktmo": "15701000001",
+    "location": {
+      "latitude": 53.2420053,
+      "longitude": 34.3653002
+    },
+    "population": 379152,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_49701000001",
+    "name": "Великий Новгород",
+    "region": "Новгородская область",
+    "oktmo": "49701000001",
+    "location": {
+      "latitude": 58.5214164,
+      "longitude": 31.2754186
+    },
+    "population": 224286,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46707000001",
+    "name": "Видное",
+    "region": "Московская область",
+    "oktmo": "46707000001",
+    "location": {
+      "latitude": 55.5517857,
+      "longitude": 37.7062236
+    },
+    "population": 101490,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_05701000001",
+    "name": "Владивосток",
+    "region": "Приморский край",
+    "oktmo": "05701000001",
+    "location": {
+      "latitude": 43.1163208,
+      "longitude": 131.8824988
+    },
+    "population": 603519,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_90701000001",
+    "name": "Владикавказ",
+    "region": "Республика Северная Осетия — Алания",
+    "oktmo": "90701000001",
+    "location": {
+      "latitude": 43.020552,
+      "longitude": 44.681905
+    },
+    "population": 295830,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_17701000001",
+    "name": "Владимир",
+    "region": "Владимирская область",
+    "oktmo": "17701000001",
+    "location": {
+      "latitude": 56.1280444,
+      "longitude": 40.4082983
+    },
+    "population": 349951,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_18701000001",
+    "name": "Волгоград",
+    "region": "Волгоградская область",
+    "oktmo": "18701000001",
+    "location": {
+      "latitude": 48.7071653,
+      "longitude": 44.5170212
+    },
+    "population": 1028036,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60712000001",
+    "name": "Волгодонск",
+    "region": "Ростовская область",
+    "oktmo": "60712000001",
+    "location": {
+      "latitude": 47.5165757,
+      "longitude": 42.1984573
+    },
+    "population": 168048,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_18710000001",
+    "name": "Волжский",
+    "region": "Волгоградская область",
+    "oktmo": "18710000001",
+    "location": {
+      "latitude": 48.7979775,
+      "longitude": 44.7462572
+    },
+    "population": 321479,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_19701000001",
+    "name": "Вологда",
+    "region": "Вологодская область",
+    "oktmo": "19701000001",
+    "location": {
+      "latitude": 59.220501,
+      "longitude": 39.891523
+    },
+    "population": 313944,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_20701000001",
+    "name": "Воронеж",
+    "region": "Воронежская область",
+    "oktmo": "20701000001",
+    "location": {
+      "latitude": 51.6593943,
+      "longitude": 39.196922
+    },
+    "population": 1057681,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_41618101001",
+    "name": "Гатчина",
+    "region": "Ленинградская область",
+    "oktmo": "41618101001",
+    "location": {
+      "latitude": 59.5651362,
+      "longitude": 30.1281234
+    },
+    "population": 94377,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_84701000001",
+    "name": "Горно-Алтайск",
+    "region": "Республика Алтай",
+    "oktmo": "84701000001",
+    "location": {
+      "latitude": 51.9581885,
+      "longitude": 85.9603499
+    },
+    "population": 65342,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_96701000001",
+    "name": "Грозный",
+    "region": "Чеченская Республика",
+    "oktmo": "96701000001",
+    "location": {
+      "latitude": 43.3178923,
+      "longitude": 45.6981421
+    },
+    "population": 328533,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_82710000001",
+    "name": "Дербент",
+    "region": "Республика Дагестан",
+    "oktmo": "82710000001",
+    "location": {
+      "latitude": 42.0590354,
+      "longitude": 48.2908599
+    },
+    "population": 124953,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_22721000001",
+    "name": "Дзержинск",
+    "region": "Нижегородская область",
+    "oktmo": "22721000001",
+    "location": {
+      "latitude": 56.2375332,
+      "longitude": 43.4598979
+    },
+    "population": 218630,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_73705000001",
+    "name": "Димитровград",
+    "region": "Ульяновская область",
+    "oktmo": "73705000001",
+    "location": {
+      "latitude": 54.2168413,
+      "longitude": 49.6262388
+    },
+    "population": 110968,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46716000001",
+    "name": "Долгопрудный",
+    "region": "Московская область",
+    "oktmo": "46716000001",
+    "location": {
+      "latitude": 55.9385975,
+      "longitude": 37.5100337
+    },
+    "population": 120907,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46709000001",
+    "name": "Домодедово",
+    "region": "Московская область",
+    "oktmo": "46709000001",
+    "location": {
+      "latitude": 55.436403,
+      "longitude": 37.7666001
+    },
+    "population": 152404,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_35712000001",
+    "name": "Евпатория",
+    "region": "Республика Крым",
+    "oktmo": "35712000001",
+    "location": {
+      "latitude": 45.190629,
+      "longitude": 33.367634
+    },
+    "population": 107877,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_65701000001",
+    "name": "Екатеринбург",
+    "region": "Свердловская область",
+    "oktmo": "65701000001",
+    "location": {
+      "latitude": 56.8387061,
+      "longitude": 60.6054943
+    },
+    "population": 1544376,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07710000001",
+    "name": "Ессентуки",
+    "region": "Ставропольский край",
+    "oktmo": "07710000001",
+    "location": {
+      "latitude": 44.0444693,
+      "longitude": 42.8589782
+    },
+    "population": 119658,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46725000001",
+    "name": "Жуковский",
+    "region": "Московская область",
+    "oktmo": "46725000001",
+    "location": {
+      "latitude": 55.5999747,
+      "longitude": 38.1224066
+    },
+    "population": 111222,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_75712000001",
+    "name": "Златоуст",
+    "region": "Челябинская область",
+    "oktmo": "75712000001",
+    "location": {
+      "latitude": 55.1714213,
+      "longitude": 59.6726478
+    },
+    "population": 161774,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_24701000001",
+    "name": "Иваново",
+    "region": "Ивановская область",
+    "oktmo": "24701000001",
+    "location": {
+      "latitude": 56.9994066,
+      "longitude": 40.9729071
+    },
+    "population": 361644,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_94701000001",
+    "name": "Ижевск",
+    "region": "Удмуртская Республика",
+    "oktmo": "94701000001",
+    "location": {
+      "latitude": 56.8528384,
+      "longitude": 53.211509
+    },
+    "population": 623472,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_25701000001",
+    "name": "Иркутск",
+    "region": "Иркутская область",
+    "oktmo": "25701000001",
+    "location": {
+      "latitude": 52.2863483,
+      "longitude": 104.2806793
+    },
+    "population": 617264,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_88701000001",
+    "name": "Йошкар-Ола",
+    "region": "Республика Марий Эл",
+    "oktmo": "88701000001",
+    "location": {
+      "latitude": 56.6343266,
+      "longitude": 47.8999167
+    },
+    "population": 281248,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_92701000001",
+    "name": "Казань",
+    "region": "Республика Татарстан",
+    "oktmo": "92701000001",
+    "location": {
+      "latitude": 55.7944326,
+      "longitude": 49.1115164
+    },
+    "population": 1308660,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_27701000001",
+    "name": "Калининград",
+    "region": "Калининградская область",
+    "oktmo": "27701000001",
+    "location": {
+      "latitude": 54.7074298,
+      "longitude": 20.5073482
+    },
+    "population": 490449,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_29701000001",
+    "name": "Калуга",
+    "region": "Калужская область",
+    "oktmo": "29701000001",
+    "location": {
+      "latitude": 54.506025,
+      "longitude": 36.2516145
+    },
+    "population": 337058,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_65740000001",
+    "name": "Каменск-Уральский",
+    "region": "Свердловская область",
+    "oktmo": "65740000001",
+    "location": {
+      "latitude": 56.4148539,
+      "longitude": 61.9188448
+    },
+    "population": 164192,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_18715000001",
+    "name": "Камышин",
+    "region": "Волгоградская область",
+    "oktmo": "18715000001",
+    "location": {
+      "latitude": 50.0652955,
+      "longitude": 45.384535
+    },
+    "population": 107927,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_82720000001",
+    "name": "Каспийск",
+    "region": "Республика Дагестан",
+    "oktmo": "82720000001",
+    "location": {
+      "latitude": 42.8916263,
+      "longitude": 47.6366936
+    },
+    "population": 121140,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_32701000001",
+    "name": "Кемерово",
+    "region": "Кемеровская область",
+    "oktmo": "32701000001",
+    "location": {
+      "latitude": 55.3910176,
+      "longitude": 86.0469193
+    },
+    "population": 557119,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_35715000001",
+    "name": "Керчь",
+    "region": "Республика Крым",
+    "oktmo": "35715000001",
+    "location": {
+      "latitude": 45.3561252,
+      "longitude": 36.4673129
+    },
+    "population": 154621,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_33701000001",
+    "name": "Киров",
+    "region": "Кировская область",
+    "oktmo": "33701000001",
+    "location": {
+      "latitude": 58.6034972,
+      "longitude": 49.6680445
+    },
+    "population": 468212,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07715000001",
+    "name": "Кисловодск",
+    "region": "Ставропольский край",
+    "oktmo": "07715000001",
+    "location": {
+      "latitude": 43.9052745,
+      "longitude": 42.7167964
+    },
+    "population": 127521,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_17725000001",
+    "name": "Ковров",
+    "region": "Владимирская область",
+    "oktmo": "17725000001",
+    "location": {
+      "latitude": 56.3554229,
+      "longitude": 41.3171096
+    },
+    "population": 132417,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46738000001",
+    "name": "Коломна",
+    "region": "Московская область",
+    "oktmo": "46738000001",
+    "location": {
+      "latitude": 55.1026926,
+      "longitude": 38.7530213
+    },
+    "population": 134850,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_08709000001",
+    "name": "Комсомольск-на-Амуре",
+    "region": "Хабаровский край",
+    "oktmo": "08709000001",
+    "location": {
+      "latitude": 50.5525092,
+      "longitude": 136.9895507
+    },
+    "population": 238505,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_75728000001",
+    "name": "Копейск",
+    "region": "Челябинская область",
+    "oktmo": "75728000001",
+    "location": {
+      "latitude": 55.1167381,
+      "longitude": 61.6179305
+    },
+    "population": 147806,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46734000001",
+    "name": "Королёв",
+    "region": "Московская область",
+    "oktmo": "46734000001",
+    "location": {
+      "latitude": 55.9161885,
+      "longitude": 37.854422
+    },
+    "population": 228095,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_34701000001",
+    "name": "Кострома",
+    "region": "Костромская область",
+    "oktmo": "34701000001",
+    "location": {
+      "latitude": 57.768,
+      "longitude": 40.927
+    },
+    "population": 267481,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46744000001",
+    "name": "Красногорск",
+    "region": "Московская область",
+    "oktmo": "46744000001",
+    "location": {
+      "latitude": 55.8318647,
+      "longitude": 37.3294489
+    },
+    "population": 187634,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_03701000001",
+    "name": "Краснодар",
+    "region": "Краснодарский край",
+    "oktmo": "03701000001",
+    "location": {
+      "latitude": 45.035453,
+      "longitude": 38.975301
+    },
+    "population": 1099344,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_04701000001",
+    "name": "Красноярск",
+    "region": "Красноярский край",
+    "oktmo": "04701000001",
+    "location": {
+      "latitude": 56.0095312,
+      "longitude": 92.8525234
+    },
+    "population": 1187771,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_37701000001",
+    "name": "Курган",
+    "region": "Курганская область",
+    "oktmo": "37701000001",
+    "location": {
+      "latitude": 55.4443683,
+      "longitude": 65.3162142
+    },
+    "population": 310911,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_38701000001",
+    "name": "Курск",
+    "region": "Курская область",
+    "oktmo": "38701000001",
+    "location": {
+      "latitude": 51.7303825,
+      "longitude": 36.1925546
+    },
+    "population": 440052,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_93701000001",
+    "name": "Кызыл",
+    "region": "Республика Тыва",
+    "oktmo": "93701000001",
+    "location": {
+      "latitude": 51.7190588,
+      "longitude": 94.4376984
+    },
+    "population": 125241,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_42701000001",
+    "name": "Липецк",
+    "region": "Липецкая область",
+    "oktmo": "42701000001",
+    "location": {
+      "latitude": 52.6101389,
+      "longitude": 39.5947287
+    },
+    "population": 496403,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46748000001",
+    "name": "Люберцы",
+    "region": "Московская область",
+    "oktmo": "46748000001",
+    "location": {
+      "latitude": 55.676499,
+      "longitude": 37.898125
+    },
+    "population": 224195,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_44701000001",
+    "name": "Магадан",
+    "region": "Магаданская область",
+    "oktmo": "44701000001",
+    "location": {
+      "latitude": 59.5681947,
+      "longitude": 150.8086939
+    },
+    "population": 90757,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_26701000001",
+    "name": "Магас",
+    "region": "Республика Ингушетия",
+    "oktmo": "26701000001",
+    "location": {
+      "latitude": 43.1686871,
+      "longitude": 44.8131101
+    },
+    "population": 15271,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_75738000001",
+    "name": "Магнитогорск",
+    "region": "Челябинская область",
+    "oktmo": "75738000001",
+    "location": {
+      "latitude": 53.4072599,
+      "longitude": 58.9791822
+    },
+    "population": 410594,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_79701000001",
+    "name": "Майкоп",
+    "region": "Республика Адыгея",
+    "oktmo": "79701000001",
+    "location": {
+      "latitude": 44.609792,
+      "longitude": 40.1005698
+    },
+    "population": 143385,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_82701000001",
+    "name": "Махачкала",
+    "region": "Республика Дагестан",
+    "oktmo": "82701000001",
+    "location": {
+      "latitude": 42.9849039,
+      "longitude": 47.5045541
+    },
+    "population": 623254,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_75742000001",
+    "name": "Миасс",
+    "region": "Челябинская область",
+    "oktmo": "75742000001",
+    "location": {
+      "latitude": 55.0552642,
+      "longitude": 60.0791765
+    },
+    "population": 147995,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07558000001",
+    "name": "Михайловск",
+    "region": "Ставропольский край",
+    "oktmo": "07558000001",
+    "location": {
+      "latitude": 45.1297467,
+      "longitude": 42.0287477
+    },
+    "population": 114133,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_45000000000",
+    "name": "Москва",
+    "region": "Москва",
+    "oktmo": "45000000000",
+    "location": {
+      "latitude": 55.7540584,
+      "longitude": 37.62049
+    },
+    "population": 13010112,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_47701000001",
+    "name": "Мурманск",
+    "region": "Мурманская область",
+    "oktmo": "47701000001",
+    "location": {
+      "latitude": 68.970663,
+      "longitude": 33.074918
+    },
+    "population": 270384,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_17735000001",
+    "name": "Муром",
+    "region": "Владимирская область",
+    "oktmo": "17735000001",
+    "location": {
+      "latitude": 55.563153,
+      "longitude": 42.0230298
+    },
+    "population": 107497,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46746000001",
+    "name": "Мытищи",
+    "region": "Московская область",
+    "oktmo": "46746000001",
+    "location": {
+      "latitude": 55.9104655,
+      "longitude": 37.7363923
+    },
+    "population": 255429,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_92730000001",
+    "name": "Набережные Челны",
+    "region": "Республика Татарстан",
+    "oktmo": "92730000001",
+    "location": {
+      "latitude": 55.6948843,
+      "longitude": 52.3279115
+    },
+    "population": 548434,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_26706000001",
+    "name": "Назрань",
+    "region": "Республика Ингушетия",
+    "oktmo": "26706000001",
+    "location": {
+      "latitude": 43.2256598,
+      "longitude": 44.7646901
+    },
+    "population": 122350,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_83701000001",
+    "name": "Нальчик",
+    "region": "Кабардино-Балкарская Республика",
+    "oktmo": "83701000001",
+    "location": {
+      "latitude": 43.4846449,
+      "longitude": 43.6070943
+    },
+    "population": 247054,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_11851000001",
+    "name": "Нарьян-Мар",
+    "region": "Ненецкий автономный округ",
+    "oktmo": "11851000001",
+    "location": {
+      "latitude": 67.6379742,
+      "longitude": 53.0069529
+    },
+    "population": 23399,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_05714000001",
+    "name": "Находка",
+    "region": "Приморский край",
+    "oktmo": "05714000001",
+    "location": {
+      "latitude": 42.8111483,
+      "longitude": 132.8844502
+    },
+    "population": 139931,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07724000001",
+    "name": "Невинномысск",
+    "region": "Ставропольский край",
+    "oktmo": "07724000001",
+    "location": {
+      "latitude": 44.6226742,
+      "longitude": 41.9476424
+    },
+    "population": 117562,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_80727000001",
+    "name": "Нефтекамск",
+    "region": "Республика Башкортостан",
+    "oktmo": "80727000001",
+    "location": {
+      "latitude": 56.0883752,
+      "longitude": 54.2482411
+    },
+    "population": 131942,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71874000001",
+    "name": "Нефтеюганск",
+    "region": "Ханты-Мансийский автономный округ — Югра",
+    "oktmo": "71874000001",
+    "location": {
+      "latitude": 61.0881688,
+      "longitude": 72.6163369
+    },
+    "population": 124732,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71875000001",
+    "name": "Нижневартовск",
+    "region": "Ханты-Мансийский автономный округ — Югра",
+    "oktmo": "71875000001",
+    "location": {
+      "latitude": 60.9397399,
+      "longitude": 76.5695505
+    },
+    "population": 283256,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_92644101001",
+    "name": "Нижнекамск",
+    "region": "Республика Татарстан",
+    "oktmo": "92644101001",
+    "location": {
+      "latitude": 55.6312304,
+      "longitude": 51.8144719
+    },
+    "population": 241479,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_22701000001",
+    "name": "Нижний Новгород",
+    "region": "Нижегородская область",
+    "oktmo": "22701000001",
+    "location": {
+      "latitude": 56.326794,
+      "longitude": 44.006495
+    },
+    "population": 1226076,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_65751000001",
+    "name": "Нижний Тагил",
+    "region": "Свердловская область",
+    "oktmo": "65751000001",
+    "location": {
+      "latitude": 57.9102289,
+      "longitude": 59.9814188
+    },
+    "population": 338966,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_32731000001",
+    "name": "Новокузнецк",
+    "region": "Кемеровская область",
+    "oktmo": "32731000001",
+    "location": {
+      "latitude": 53.7943459,
+      "longitude": 87.2142908
+    },
+    "population": 537480,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_70724000001",
+    "name": "Новомосковск",
+    "region": "Тульская область",
+    "oktmo": "70724000001",
+    "location": {
+      "latitude": 54.010957,
+      "longitude": 38.2915047
+    },
+    "population": 119697,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_03720000001",
+    "name": "Новороссийск",
+    "region": "Краснодарский край",
+    "oktmo": "03720000001",
+    "location": {
+      "latitude": 44.7234226,
+      "longitude": 37.7686906
+    },
+    "population": 262293,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_50701000001",
+    "name": "Новосибирск",
+    "region": "Новосибирская область",
+    "oktmo": "50701000001",
+    "location": {
+      "latitude": 55.030187,
+      "longitude": 82.920426
+    },
+    "population": 1633595,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_97710000001",
+    "name": "Новочебоксарск",
+    "region": "Чувашская Республика",
+    "oktmo": "97710000001",
+    "location": {
+      "latitude": 56.1095538,
+      "longitude": 47.4791596
+    },
+    "population": 120375,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60727000001",
+    "name": "Новочеркасск",
+    "region": "Ростовская область",
+    "oktmo": "60727000001",
+    "location": {
+      "latitude": 47.4118469,
+      "longitude": 40.1040646
+    },
+    "population": 163674,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60730000001",
+    "name": "Новошахтинск",
+    "region": "Ростовская область",
+    "oktmo": "60730000001",
+    "location": {
+      "latitude": 47.7576743,
+      "longitude": 39.9364541
+    },
+    "population": 103480,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71956000001",
+    "name": "Новый Уренгой",
+    "region": "Ямало-Ненецкий автономный округ",
+    "oktmo": "71956000001",
+    "location": {
+      "latitude": 66.0839904,
+      "longitude": 76.6810104
+    },
+    "population": 107251,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46751000001",
+    "name": "Ногинск",
+    "region": "Московская область",
+    "oktmo": "46751000001",
+    "location": {
+      "latitude": 55.8760353,
+      "longitude": 38.4231801
+    },
+    "population": 103891,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_04729000001",
+    "name": "Норильск",
+    "region": "Красноярский край",
+    "oktmo": "04729000001",
+    "location": {
+      "latitude": 69.3489906,
+      "longitude": 88.2009379
+    },
+    "population": 174453,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71958000001",
+    "name": "Ноябрьск",
+    "region": "Ямало-Ненецкий автономный округ",
+    "oktmo": "71958000001",
+    "location": {
+      "latitude": 63.1920786,
+      "longitude": 75.4454918
+    },
+    "population": 100188,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_29715000001",
+    "name": "Обнинск",
+    "region": "Калужская область",
+    "oktmo": "29715000001",
+    "location": {
+      "latitude": 55.0944881,
+      "longitude": 36.6121565
+    },
+    "population": 125376,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46755000001",
+    "name": "Одинцово",
+    "region": "Московская область",
+    "oktmo": "46755000001",
+    "location": {
+      "latitude": 55.6790296,
+      "longitude": 37.2635177
+    },
+    "population": 180530,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_80735000001",
+    "name": "Октябрьский",
+    "region": "Республика Башкортостан",
+    "oktmo": "80735000001",
+    "location": {
+      "latitude": 54.4814637,
+      "longitude": 53.4654836
+    },
+    "population": 115557,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_52701000001",
+    "name": "Омск",
+    "region": "Омская область",
+    "oktmo": "52701000001",
+    "location": {
+      "latitude": 54.9849581,
+      "longitude": 73.3675684
+    },
+    "population": 1125695,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_53701000001",
+    "name": "Оренбург",
+    "region": "Оренбургская область",
+    "oktmo": "53701000001",
+    "location": {
+      "latitude": 51.7875335,
+      "longitude": 55.1017803
+    },
+    "population": 543654,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46757000001",
+    "name": "Орехово-Зуево",
+    "region": "Московская область",
+    "oktmo": "46757000001",
+    "location": {
+      "latitude": 55.8164825,
+      "longitude": 38.9368137
+    },
+    "population": 105745,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_53723000001",
+    "name": "Орск",
+    "region": "Оренбургская область",
+    "oktmo": "53723000001",
+    "location": {
+      "latitude": 51.2292952,
+      "longitude": 58.4752502
+    },
+    "population": 189195,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_54701000001",
+    "name": "Орёл",
+    "region": "Орловская область",
+    "oktmo": "54701000001",
+    "location": {
+      "latitude": 52.9671928,
+      "longitude": 36.0695725
+    },
+    "population": 303169,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_56701000001",
+    "name": "Пенза",
+    "region": "Пензенская область",
+    "oktmo": "56701000001",
+    "location": {
+      "latitude": 53.1753947,
+      "longitude": 45.0347408
+    },
+    "population": 501109,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_65753000001",
+    "name": "Первоуральск",
+    "region": "Свердловская область",
+    "oktmo": "65753000001",
+    "location": {
+      "latitude": 56.9080096,
+      "longitude": 59.9429936
+    },
+    "population": 114450,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_57701000001",
+    "name": "Пермь",
+    "region": "Пермский край",
+    "oktmo": "57701000001",
+    "location": {
+      "latitude": 58.0102668,
+      "longitude": 56.2342725
+    },
+    "population": 1034002,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_86701000001",
+    "name": "Петрозаводск",
+    "region": "Республика Карелия",
+    "oktmo": "86701000001",
+    "location": {
+      "latitude": 61.7889739,
+      "longitude": 34.3596538
+    },
+    "population": 234897,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_30701000001",
+    "name": "Петропавловск-Камчатский",
+    "region": "Камчатский край",
+    "oktmo": "30701000001",
+    "location": {
+      "latitude": 53.0370074,
+      "longitude": 158.65595
+    },
+    "population": 164900,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46760000001",
+    "name": "Подольск",
+    "region": "Московская область",
+    "oktmo": "46760000001",
+    "location": {
+      "latitude": 55.4389616,
+      "longitude": 37.5703052
+    },
+    "population": 314934,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_32737000001",
+    "name": "Прокопьевск",
+    "region": "Кемеровская область",
+    "oktmo": "32737000001",
+    "location": {
+      "latitude": 53.8604228,
+      "longitude": 86.7183302
+    },
+    "population": 177819,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_58701000001",
+    "name": "Псков",
+    "region": "Псковская область",
+    "oktmo": "58701000001",
+    "location": {
+      "latitude": 57.819825,
+      "longitude": 28.3950685
+    },
+    "population": 193082,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46758000001",
+    "name": "Пушкино",
+    "region": "Московская область",
+    "oktmo": "46758000001",
+    "location": {
+      "latitude": 56.0104754,
+      "longitude": 37.847161
+    },
+    "population": 110868,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07727000001",
+    "name": "Пятигорск",
+    "region": "Ставропольский край",
+    "oktmo": "07727000001",
+    "location": {
+      "latitude": 44.041234,
+      "longitude": 43.0660504
+    },
+    "population": 146473,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46768000001",
+    "name": "Раменское",
+    "region": "Московская область",
+    "oktmo": "46768000001",
+    "location": {
+      "latitude": 55.5495378,
+      "longitude": 38.2728835
+    },
+    "population": 114537,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46764000001",
+    "name": "Реутов",
+    "region": "Московская область",
+    "oktmo": "46764000001",
+    "location": {
+      "latitude": 55.7582708,
+      "longitude": 37.8618288
+    },
+    "population": 113871,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60701000001",
+    "name": "Ростов-на-Дону",
+    "region": "Ростовская область",
+    "oktmo": "60701000001",
+    "location": {
+      "latitude": 47.2180329,
+      "longitude": 39.6902714
+    },
+    "population": 1142162,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_01716000001",
+    "name": "Рубцовск",
+    "region": "Алтайский край",
+    "oktmo": "01716000001",
+    "location": {
+      "latitude": 51.5012963,
+      "longitude": 81.2078042
+    },
+    "population": 126834,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_78715000001",
+    "name": "Рыбинск",
+    "region": "Ярославская область",
+    "oktmo": "78715000001",
+    "location": {
+      "latitude": 58.0484021,
+      "longitude": 38.858475
+    },
+    "population": 177295,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_61701000001",
+    "name": "Рязань",
+    "region": "Рязанская область",
+    "oktmo": "61701000001",
+    "location": {
+      "latitude": 54.6255345,
+      "longitude": 39.7359162
+    },
+    "population": 528599,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_80739000001",
+    "name": "Салават",
+    "region": "Республика Башкортостан",
+    "oktmo": "80739000001",
+    "location": {
+      "latitude": 53.362823,
+      "longitude": 55.9154367
+    },
+    "population": 148575,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71951000001",
+    "name": "Салехард",
+    "region": "Ямало-Ненецкий автономный округ",
+    "oktmo": "71951000001",
+    "location": {
+      "latitude": 66.5493706,
+      "longitude": 66.6084227
+    },
+    "population": 47910,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_36701000001",
+    "name": "Самара",
+    "region": "Самарская область",
+    "oktmo": "36701000001",
+    "location": {
+      "latitude": 53.1951774,
+      "longitude": 50.1069625
+    },
+    "population": 1173299,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_40000000000",
+    "name": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "oktmo": "40000000000",
+    "location": {
+      "latitude": 59.9390012,
+      "longitude": 30.3158184
+    },
+    "population": 5601911,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_89701000001",
+    "name": "Саранск",
+    "region": "Республика Мордовия",
+    "oktmo": "89701000001",
+    "location": {
+      "latitude": 54.1808234,
+      "longitude": 45.1863143
+    },
+    "population": 314871,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_63701000001",
+    "name": "Саратов",
+    "region": "Саратовская область",
+    "oktmo": "63701000001",
+    "location": {
+      "latitude": 51.533557,
+      "longitude": 46.034257
+    },
+    "population": 901361,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_67000000000",
+    "name": "Севастополь",
+    "region": "Севастополь",
+    "oktmo": "67000000000",
+    "location": {
+      "latitude": 44.6167087,
+      "longitude": 33.5253617
+    },
+    "population": 547820,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_11730000001",
+    "name": "Северодвинск",
+    "region": "Архангельская область",
+    "oktmo": "11730000001",
+    "location": {
+      "latitude": 64.5625626,
+      "longitude": 39.8182183
+    },
+    "population": 157213,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_69741000001",
+    "name": "Северск",
+    "region": "Томская область",
+    "oktmo": "69741000001",
+    "location": {
+      "latitude": 56.6032343,
+      "longitude": 84.881027
+    },
+    "population": 106648,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46728000001",
+    "name": "Сергиев Посад",
+    "region": "Московская область",
+    "oktmo": "46728000001",
+    "location": {
+      "latitude": 56.3063854,
+      "longitude": 38.1502956
+    },
+    "population": 101756,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46770000001",
+    "name": "Серпухов",
+    "region": "Московская область",
+    "oktmo": "46770000001",
+    "location": {
+      "latitude": 54.9226176,
+      "longitude": 37.4033624
+    },
+    "population": 133793,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_35701000001",
+    "name": "Симферополь",
+    "region": "Республика Крым",
+    "oktmo": "35701000001",
+    "location": {
+      "latitude": 44.9482789,
+      "longitude": 34.1001275
+    },
+    "population": 340540,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_66701000001",
+    "name": "Смоленск",
+    "region": "Смоленская область",
+    "oktmo": "66701000001",
+    "location": {
+      "latitude": 54.782635,
+      "longitude": 32.045251
+    },
+    "population": 316570,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_03726000001",
+    "name": "Сочи",
+    "region": "Краснодарский край",
+    "oktmo": "03726000001",
+    "location": {
+      "latitude": 43.5855182,
+      "longitude": 39.7229922
+    },
+    "population": 466078,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_07701000001",
+    "name": "Ставрополь",
+    "region": "Ставропольский край",
+    "oktmo": "07701000001",
+    "location": {
+      "latitude": 45.0444563,
+      "longitude": 41.9691349
+    },
+    "population": 547443,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_14740000001",
+    "name": "Старый Оскол",
+    "region": "Белгородская область",
+    "oktmo": "14740000001",
+    "location": {
+      "latitude": 51.297974,
+      "longitude": 37.833231
+    },
+    "population": 221676,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_80745000001",
+    "name": "Стерлитамак",
+    "region": "Республика Башкортостан",
+    "oktmo": "80745000001",
+    "location": {
+      "latitude": 53.6302062,
+      "longitude": 55.9317313
+    },
+    "population": 277410,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71876000001",
+    "name": "Сургут",
+    "region": "Ханты-Мансийский автономный округ — Югра",
+    "oktmo": "71876000001",
+    "location": {
+      "latitude": 61.2541492,
+      "longitude": 73.396236
+    },
+    "population": 396443,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_36735000001",
+    "name": "Сызрань",
+    "region": "Самарская область",
+    "oktmo": "36735000001",
+    "location": {
+      "latitude": 53.1557162,
+      "longitude": 48.4744217
+    },
+    "population": 165725,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_87701000001",
+    "name": "Сыктывкар",
+    "region": "Республика Коми",
+    "oktmo": "87701000001",
+    "location": {
+      "latitude": 61.6687212,
+      "longitude": 50.8356788
+    },
+    "population": 220580,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60737000001",
+    "name": "Таганрог",
+    "region": "Ростовская область",
+    "oktmo": "60737000001",
+    "location": {
+      "latitude": 47.2096599,
+      "longitude": 38.9352459
+    },
+    "population": 245120,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_68701000001",
+    "name": "Тамбов",
+    "region": "Тамбовская область",
+    "oktmo": "68701000001",
+    "location": {
+      "latitude": 52.7211576,
+      "longitude": 41.4522156
+    },
+    "population": 261803,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_28701000001",
+    "name": "Тверь",
+    "region": "Тверская область",
+    "oktmo": "28701000001",
+    "location": {
+      "latitude": 56.8586556,
+      "longitude": 35.9118279
+    },
+    "population": 416219,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71710000001",
+    "name": "Тобольск",
+    "region": "Тюменская область",
+    "oktmo": "71710000001",
+    "location": {
+      "latitude": 58.2017257,
+      "longitude": 68.2538473
+    },
+    "population": 100352,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_36740000001",
+    "name": "Тольятти",
+    "region": "Самарская область",
+    "oktmo": "36740000001",
+    "location": {
+      "latitude": 53.5205003,
+      "longitude": 49.3895011
+    },
+    "population": 684709,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_69701000001",
+    "name": "Томск",
+    "region": "Томская область",
+    "oktmo": "69701000001",
+    "location": {
+      "latitude": 56.4846736,
+      "longitude": 84.9482929
+    },
+    "population": 556478,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_70701000001",
+    "name": "Тула",
+    "region": "Тульская область",
+    "oktmo": "70701000001",
+    "location": {
+      "latitude": 54.1918898,
+      "longitude": 37.6153644
+    },
+    "population": 473622,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71701000001",
+    "name": "Тюмень",
+    "region": "Тюменская область",
+    "oktmo": "71701000001",
+    "location": {
+      "latitude": 57.1531178,
+      "longitude": 65.5343535
+    },
+    "population": 847488,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_81701000001",
+    "name": "Улан-Удэ",
+    "region": "Республика Бурятия",
+    "oktmo": "81701000001",
+    "location": {
+      "latitude": 51.8334492,
+      "longitude": 107.584068
+    },
+    "population": 437565,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_73701000001",
+    "name": "Ульяновск",
+    "region": "Ульяновская область",
+    "oktmo": "73701000001",
+    "location": {
+      "latitude": 54.3079032,
+      "longitude": 48.3748473
+    },
+    "population": 617352,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_05723000001",
+    "name": "Уссурийск",
+    "region": "Приморский край",
+    "oktmo": "05723000001",
+    "location": {
+      "latitude": 43.8048438,
+      "longitude": 131.9367538
+    },
+    "population": 180393,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_80701000001",
+    "name": "Уфа",
+    "region": "Республика Башкортостан",
+    "oktmo": "80701000001",
+    "location": {
+      "latitude": 54.734856,
+      "longitude": 55.9577802
+    },
+    "population": 1144809,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_08701000001",
+    "name": "Хабаровск",
+    "region": "Хабаровский край",
+    "oktmo": "08701000001",
+    "location": {
+      "latitude": 48.4648124,
+      "longitude": 135.0598539
+    },
+    "population": 617441,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_71871000001",
+    "name": "Ханты-Мансийск",
+    "region": "Ханты-Мансийский автономный округ — Югра",
+    "oktmo": "71871000001",
+    "location": {
+      "latitude": 61.0025598,
+      "longitude": 69.0183366
+    },
+    "population": 107473,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_82735000001",
+    "name": "Хасавюрт",
+    "region": "Республика Дагестан",
+    "oktmo": "82735000001",
+    "location": {
+      "latitude": 43.2504341,
+      "longitude": 46.5850867
+    },
+    "population": 155144,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46783000001",
+    "name": "Химки",
+    "region": "Московская область",
+    "oktmo": "46783000001",
+    "location": {
+      "latitude": 55.8888467,
+      "longitude": 37.430372
+    },
+    "population": 257128,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_97701000001",
+    "name": "Чебоксары",
+    "region": "Чувашская Республика",
+    "oktmo": "97701000001",
+    "location": {
+      "latitude": 56.125485,
+      "longitude": 47.377328
+    },
+    "population": 497807,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_75701000001",
+    "name": "Челябинск",
+    "region": "Челябинская область",
+    "oktmo": "75701000001",
+    "location": {
+      "latitude": 55.1602292,
+      "longitude": 61.4007614
+    },
+    "population": 1189525,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_19730000001",
+    "name": "Череповец",
+    "region": "Вологодская область",
+    "oktmo": "19730000001",
+    "location": {
+      "latitude": 59.1268743,
+      "longitude": 37.9090556
+    },
+    "population": 305185,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_91701000001",
+    "name": "Черкесск",
+    "region": "Карачаево-Черкесская Республика",
+    "oktmo": "91701000001",
+    "location": {
+      "latitude": 44.228353,
+      "longitude": 42.048278
+    },
+    "population": 113226,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_76701000001",
+    "name": "Чита",
+    "region": "Забайкальский край",
+    "oktmo": "76701000001",
+    "location": {
+      "latitude": 52.0338828,
+      "longitude": 113.499487
+    },
+    "population": 334427,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_60740000001",
+    "name": "Шахты",
+    "region": "Ростовская область",
+    "oktmo": "60740000001",
+    "location": {
+      "latitude": 47.7085649,
+      "longitude": 40.2158665
+    },
+    "population": 226452,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46788000001",
+    "name": "Щёлково",
+    "region": "Московская область",
+    "oktmo": "46788000001",
+    "location": {
+      "latitude": 55.9233436,
+      "longitude": 37.9783923
+    },
+    "population": 134211,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_46790000001",
+    "name": "Электросталь",
+    "region": "Московская область",
+    "oktmo": "46790000001",
+    "location": {
+      "latitude": 55.784633,
+      "longitude": 38.444699
+    },
+    "population": 146403,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_85701000001",
+    "name": "Элиста",
+    "region": "Республика Калмыкия",
+    "oktmo": "85701000001",
+    "location": {
+      "latitude": 46.30821,
+      "longitude": 44.2702746
+    },
+    "population": 102583,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_63650101001",
+    "name": "Энгельс",
+    "region": "Саратовская область",
+    "oktmo": "63650101001",
+    "location": {
+      "latitude": 51.4855068,
+      "longitude": 46.1267008
+    },
+    "population": 225428,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_64701000001",
+    "name": "Южно-Сахалинск",
+    "region": "Сахалинская область",
+    "oktmo": "64701000001",
+    "location": {
+      "latitude": 46.9667029,
+      "longitude": 142.7212958
+    },
+    "population": 181587,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_98701000001",
+    "name": "Якутск",
+    "region": "Республика Саха (Якутия)",
+    "oktmo": "98701000001",
+    "location": {
+      "latitude": 62.0280605,
+      "longitude": 129.7324858
+    },
+    "population": 355443,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  },
+  {
+    "destination_id": "dest_oktmo_78701000001",
+    "name": "Ярославль",
+    "region": "Ярославская область",
+    "oktmo": "78701000001",
+    "location": {
+      "latitude": 57.6216293,
+      "longitude": 39.8978921
+    },
+    "population": 577279,
+    "climate": null,
+    "estimated_budget": null,
+    "source": {
+      "name": "russia_cities_reference",
+      "type": "public_api",
+      "format": "dataset",
+      "file": "cities.csv",
+      "url": null,
+      "retrieved_at": "2026-10-26T19:14:48.962207+00:00",
+      "data_as_of": "2021"
+    },
+    "is_demo": true
+  }
+]

@@ -1,0 +1,593 @@
+Найдено файлов: 17
+
+================================================================================
+ФАЙЛ: airports.csv
+================================================================================
+РАЗМЕР: ~86280 строк, 19 колонок
+
+КОЛОНКИ И ТИПЫ:
+id                     int64
+ident                    str
+type                     str
+name                     str
+latitude_deg         float64
+longitude_deg        float64
+elevation_ft         float64
+continent                str
+iso_country              str
+iso_region               str
+municipality             str
+scheduled_service        str
+icao_code            float64
+iata_code            float64
+gps_code                 str
+local_code               str
+home_link                str
+wikipedia_link           str
+keywords                 str
+
+ПЕРВЫЕ 2 СТРОКИ:
+       id ident           type                  name  latitude_deg  longitude_deg  elevation_ft continent iso_country iso_region municipality scheduled_service  icao_code  iata_code gps_code local_code                                                                       home_link wikipedia_link keywords
+0    6523   00A       heliport     Total RF Heliport     40.070985     -74.933689          11.0       NaN          US      US-PA     Bensalem                no        NaN        NaN     K00A        00A  https://www.penndot.pa.gov/TravelInPA/airports-pa/Pages/Total-RF-Heliport.aspx            NaN      NaN
+1  323361  00AA  small_airport  Aero B Ranch Airport     38.704022    -101.473911        3435.0       NaN          US      US-KS        Leoti                no        NaN        NaN     00AA       00AA                                                                             NaN            NaN      NaN
+
+ПРОПУСКИ (ТОП-5):
+iata_code         100
+icao_code         100
+continent          99
+home_link          98
+wikipedia_link     94
+
+================================================================================
+ФАЙЛ: flights_ru.csv
+================================================================================
+РАЗМЕР: ~11122 строк, 17 колонок
+
+КОЛОНКИ И ТИПЫ:
+origin_city                   str
+destination_city              str
+origin_icao                   str
+destination_icao              str
+origin_iata                   str
+destination_iata              str
+origin_airport                str
+destination_airport           str
+airline_icao                  str
+callsign                      str
+departure_utc                 str
+arrival_utc                   str
+duration_minutes          float64
+airport_ambiguous            bool
+origin_candidates             str
+destination_candidates        str
+source                        str
+
+ПЕРВЫЕ 2 СТРОКИ:
+      origin_city destination_city origin_icao destination_icao origin_iata destination_iata       origin_airport  destination_airport airline_icao callsign              departure_utc                arrival_utc  duration_minutes  airport_ambiguous origin_candidates         destination_candidates                                     source
+0     Cherepovets   St. Petersburg        ULWC             ULLI         CEE              LED  Cherepovets Airport      Pulkovo Airport          SDM  SDM6238  2026-07-02T15:40:33+00:00  2026-07-02T16:41:04+00:00              61.0               True    ULWC;ULWW;UUBK                           ULLI  Aircraft Flight Schedules 2026 Q3 (ADS-B)
+1  St. Petersburg      Cherepovets        ULLI             ULWC         LED              CEE      Pulkovo Airport  Cherepovets Airport          SDM  SDM6561  2026-07-12T22:31:50+00:00  2026-07-13T11:16:09+00:00             764.0               True              ULLI  ULWC;ULWW;UUBA;UUBI;UUBK;UUDL  Aircraft Flight Schedules 2026 Q3 (ADS-B)
+
+ПРОПУСКИ (ТОП-5):
+duration_minutes    16
+
+================================================================================
+ФАЙЛ: hotels-russia.csv
+================================================================================
+РАЗМЕР: ~30555 строк, 41 колонок
+
+КОЛОНКИ И ТИПЫ:
+osm_id                        float64
+name                              str
+type                              str
+latitude                      float64
+longitude                     float64
+city                              str
+address                           str
+stars                         float64
+website                           str
+phone                             str
+internet                          str
+parking                       float64
+search_text                       str
+tags_json                         str
+city_source                       str
+city_confidence                   str
+city_distance_km              float64
+city_geonames_id              float64
+city_candidate                    str
+city_candidate_distance_km    float64
+city_needs_review                 str
+hotel_key                         str
+city_before_qc                    str
+city_qa_status                    str
+city_qa_notes                     str
+possible_duplicate_count        int64
+city_original_qa                  str
+city_guess                        str
+city_verified                     str
+city_verified_source              str
+city_match_status                 str
+municipality_hint                 str
+search_text_verified              str
+city_previous                     str
+city_final                        str
+city_final_method                 str
+city_final_confidence             str
+city_final_distance_km        float64
+city_suggestion                   str
+city_agent_search_text            str
+city_review_reason                str
+
+ПЕРВЫЕ 2 СТРОКИ:
+   osm_id         name   type   latitude  longitude        city address  stars website phone internet  parking                   search_text                                    tags_json              city_source city_confidence  city_distance_km  city_geonames_id city_candidate  city_candidate_distance_km city_needs_review     hotel_key city_before_qc  city_qa_status                                                                                  city_qa_notes  possible_duplicate_count city_original_qa  city_guess city_verified city_verified_source  city_match_status municipality_hint          search_text_verified city_previous  city_final       city_final_method city_final_confidence  city_final_distance_km city_suggestion        city_agent_search_text city_review_reason
+0     NaN        Углич  hotel  57.531709  38.331515       Углич     NaN    NaN     NaN   NaN      NaN      NaN             Углич hotel Углич        {"name": "Углич", "tourism": "hotel"}  geonames_nearest_approx            high              0.21          578788.0        Басовка                        0.21                no  hotel_000001        Басовка     approximate               Только ближайший населённый пункт GeoNames; не проверено вхождение в его границы                         1          Басовка     Басовка         Углич    osm_place_polygon  boundary_verified               NaN             Углич hotel Углич         Углич       Углич  osm_settlement_polygon               polygon                     NaN         Басовка             Углич hotel Углич                NaN
+1     NaN  Skandinavia  hotel  60.103308  29.948970  Сестрорецк     NaN    NaN     NaN   NaN      NaN      NaN  Skandinavia hotel Сестрорецк  {"name": "Skandinavia", "tourism": "hotel"}  geonames_nearest_approx            high              1.01          496478.0     Сестрарэцк                        1.01                no  hotel_000002     Сестрарэцк  corrected_name  Очевидная ошибка названия: Сестрарэцк → Сестрорецк; географическая проверка по прямоугольнику                         1       Сестрорецк  Сестрорецк    Сестрорецк    osm_place_polygon  boundary_verified               NaN  Skandinavia hotel Сестрорецк    Сестрорецк  Сестрорецк  osm_settlement_polygon               polygon                     NaN      Сестрорецк  Skandinavia hotel Сестрорецк                NaN
+
+ПРОПУСКИ (ТОП-5):
+osm_id                    100
+parking                   100
+city_final_distance_km    100
+city_review_reason         88
+stars                      87
+
+================================================================================
+ФАЙЛ: routes_ru.csv
+================================================================================
+РАЗМЕР: ~103 строк, 12 колонок
+
+КОЛОНКИ И ТИПЫ:
+origin_city                     str
+destination_city                str
+origin_icao                     str
+destination_icao                str
+origin_iata                     str
+destination_iata                str
+observed_flights_q3_2026      int64
+avg_duration_minutes        float64
+first_observed_utc              str
+last_observed_utc               str
+source                          str
+data_kind                       str
+
+ПЕРВЫЕ 2 СТРОКИ:
+      origin_city destination_city origin_icao destination_icao origin_iata destination_iata  observed_flights_q3_2026  avg_duration_minutes         first_observed_utc          last_observed_utc                                     source                                data_kind
+0          Moscow      Kaliningrad        UUEE             UMKK         SVO              KGD                       218                 126.0  2026-07-04T13:39:32+00:00  2026-09-29T14:33:41+00:00  Aircraft Flight Schedules 2026 Q3 (ADS-B)  historical_observed_not_future_schedule
+1  St. Petersburg      Kaliningrad        ULLI             UMKK         LED              KGD                       169                  76.0  2026-07-01T17:31:20+00:00  2026-09-30T15:21:01+00:00  Aircraft Flight Schedules 2026 Q3 (ADS-B)  historical_observed_not_future_schedule
+
+ПРОПУСКИ (ТОП-5):
+destination_iata        3
+avg_duration_minutes    3
+origin_iata             2
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\buses_full.csv
+================================================================================
+РАЗМЕР: ~59476 строк, 26 колонок
+
+КОЛОНКИ И ТИПЫ:
+trip_id                                  str
+source                                   str
+route_id                                 str
+direction                                str
+from_city                                str
+to_city                                  str
+from_station                             str
+to_station                           float64
+departure_time_local                     str
+arrival_time_local_unverified_day    float64
+duration_min                         float64
+service_days_rule                        str
+service_period_raw                       str
+price_from_rub                         int64
+price_to_rub                           int64
+price_scope                              str
+operator_or_carriers                     str
+distance_km                          float64
+snapshot_date                            str
+schedule_reference_date                  str
+registry_as_of                       float64
+source_url                               str
+departure_date_confirmed                bool
+arrival_date_confirmed                  bool
+availability_confirmed                  bool
+data_quality_notes                       str
+
+ПЕРВЫЕ 2 СТРОКИ:
+     trip_id            source             route_id direction from_city     to_city                   from_station  to_station departure_time_local  arrival_time_local_unverified_day  duration_min service_days_rule service_period_raw  price_from_rub  price_to_rub                          price_scope                                                  operator_or_carriers  distance_km snapshot_date schedule_reference_date  registry_as_of                                    source_url  departure_date_confirmed  arrival_date_confirmed  availability_confirmed                                                                                                                                                       data_quality_notes
+0  rossbus_2  rossbus_snapshot       abakan__bograd   from_to    Абакан      Боград  Железнодорожный вокзал Абакан         NaN                15:30                                NaN          85.0                Вс        unspecified             760           760  route_level_range_NOT_per_departure                                           Филиал ГПК "ПАТ" г.Кемерово         92.7    2026-10-19              2026-10-19             NaN       https://rossbus.ru/buses/abakan/bograd/                     False                   False                   False  Rossbus route-level price, carriers and departure station; destination station unspecified; timetable snapshot, service date not confirmed; no seat availability check.
+1  rossbus_3  rossbus_snapshot  abakan__chernogorsk   from_to    Абакан  Черногорск  Железнодорожный вокзал Абакан         NaN                15:30                                NaN          20.0                Вс        unspecified             347           403  route_level_range_NOT_per_departure  ООО "АП Межобластное"; Автоколонна 1967; Филиал ГПК "ПАТ" г.Кемерово         18.1    2026-10-19              2026-10-19             NaN  https://rossbus.ru/buses/abakan/chernogorsk/                     False                   False                   False  Rossbus route-level price, carriers and departure station; destination station unspecified; timetable snapshot, service date not confirmed; no seat availability check.
+
+ПРОПУСКИ (ТОП-5):
+to_station                           100
+arrival_time_local_unverified_day    100
+registry_as_of                       100
+duration_min                          17
+service_days_rule                     17
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_calendar_30d.csv
+================================================================================
+РАЗМЕР: ~1320043 строк, 20 колонок
+
+КОЛОНКИ И ТИПЫ:
+trip_id                                  str
+source                                   str
+service_date_inferred                    str
+departure_datetime_origin_local          str
+from_city                                str
+to_city                                  str
+from_station                             str
+to_station                           float64
+departure_time_local                     str
+arrival_time_local_unverified_day    float64
+duration_min                           int64
+price_from_rub                         int64
+price_to_rub                           int64
+price_scope                              str
+service_days_rule                        str
+service_period_raw                       str
+snapshot_date                            str
+availability_confirmed                  bool
+calendar_date_status                     str
+arrival_date_confirmed                  bool
+
+ПЕРВЫЕ 2 СТРОКИ:
+     trip_id            source service_date_inferred departure_datetime_origin_local from_city to_city                   from_station  to_station departure_time_local  arrival_time_local_unverified_day  duration_min  price_from_rub  price_to_rub                          price_scope service_days_rule service_period_raw snapshot_date  availability_confirmed            calendar_date_status  arrival_date_confirmed
+0  rossbus_2  rossbus_snapshot            2026-10-25             2026-10-25T15:30:00    Абакан  Боград  Железнодорожный вокзал Абакан         NaN                15:30                                NaN            85             760           760  route_level_range_NOT_per_departure                Вс        unspecified    2026-10-19                   False  PROJECTED_WEEKDAY_NOT_VERIFIED                   False
+1  rossbus_2  rossbus_snapshot            2026-11-01             2026-11-01T15:30:00    Абакан  Боград  Железнодорожный вокзал Абакан         NaN                15:30                                NaN            85             760           760  route_level_range_NOT_per_departure                Вс        unspecified    2026-10-19                   False  PROJECTED_WEEKDAY_NOT_VERIFIED                   False
+
+ПРОПУСКИ (ТОП-5):
+to_station                           100
+arrival_time_local_unverified_day    100
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_connections.csv
+================================================================================
+РАЗМЕР: ~43777 строк, 14 колонок
+
+КОЛОНКИ И ТИПЫ:
+route_id                          str
+direction                         str
+from_stop                         str
+to_stop                           str
+from_city_inferred                str
+to_city_inferred                  str
+from_stop_index                 int64
+to_stop_index                   int64
+winter_departure_times_raw        str
+winter_arrival_times_raw          str
+summer_departure_times_raw    float64
+summer_arrival_times_raw      float64
+registry_as_of                    str
+data_kind                         str
+
+ПЕРВЫЕ 2 СТРОКИ:
+    route_id direction     from_stop                            to_stop from_city_inferred to_city_inferred  from_stop_index  to_stop_index winter_departure_times_raw winter_arrival_times_raw  summer_departure_times_raw  summer_arrival_times_raw registry_as_of                                                  data_kind
+0  01.09.002   forward  АВ г. Майкоп  Остановочный пункт пгт Мостовской             Майкоп       Мостовской                1              3                      08:30                    10:34                         NaN                       NaN     2026-10-21  shared_registered_route; intermediate_boarding_unverified
+1  01.09.002   forward  АВ г. Майкоп                       АК п. Псебай             Майкоп           Псебай                1              4                      08:30                    11:19                         NaN                       NaN     2026-10-21  shared_registered_route; intermediate_boarding_unverified
+
+ПРОПУСКИ (ТОП-5):
+summer_departure_times_raw    100
+summer_arrival_times_raw      100
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_departure_slots.csv
+================================================================================
+РАЗМЕР: ~16748 строк, 20 колонок
+
+КОЛОНКИ И ТИПЫ:
+route_id                               str
+direction                              str
+season                                 str
+slot_index                           int64
+route_name                             str
+from_stop                              str
+to_stop                                str
+from_city_inferred                     str
+to_city_inferred                       str
+departure_time_local                   str
+arrival_time_local_unverified_day      str
+arrival_slot_alignment                 str
+departure_days_rule_raw                str
+arrival_days_rule_raw                  str
+season_period_raw                      str
+source_departure_cell                  str
+source_arrival_cell                    str
+actual_calendar_date_known            bool
+availability_verified                 bool
+source_kind                            str
+
+ПЕРВЫЕ 2 СТРОКИ:
+    route_id direction  season  slot_index                              route_name                from_stop                  to_stop from_city_inferred to_city_inferred departure_time_local arrival_time_local_unverified_day                 arrival_slot_alignment departure_days_rule_raw arrival_days_rule_raw season_period_raw source_departure_cell source_arrival_cell  actual_calendar_date_known  availability_verified                                        source_kind
+0  01.09.002   forward  winter           1  АВ г. Майкоп – Автовокзал г. Черкесска             АВ г. Майкоп  Автовокзал г. Черкесска             Майкоп              NaN                08:30                             15:55  same_slot_index; calendar_day_unknown               1 через 1             1 через 1     круглогодично                 08:30               15:55                       False                  False  registry_time_extracted; slot_matching_unverified
+1  01.09.002   reverse  winter           1  АВ г. Майкоп – Автовокзал г. Черкесска  Автовокзал г. Черкесска             АВ г. Майкоп                NaN           Майкоп                08:00                             15:30  same_slot_index; calendar_day_unknown               1 через 1             1 через 1     круглогодично                 08:00               15:30                       False                  False  registry_time_extracted; slot_matching_unverified
+
+ПРОПУСКИ (ТОП-5):
+from_city_inferred                   58
+to_city_inferred                     58
+arrival_time_local_unverified_day    22
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_price_reference.csv
+================================================================================
+РАЗМЕР: ~4492 строк, 8 колонок
+
+КОЛОНКИ И ТИПЫ:
+from_slug          str
+to_slug            str
+from               str
+to                 str
+road_km          int64
+min_price_rub    int64
+rub_per_km         str
+from_region        str
+
+ПЕРВЫЕ 2 СТРОКИ:
+  from_slug         to_slug    from              to  road_km  min_price_rub rub_per_km         from_region
+0    moskva  rostov-na-donu  Москва  Ростов-на-Дону     1078           1596       1,48  moskovskaya-oblast
+1   ighevsk        lagunovo  Ижевск        Лагуново      355            567        1,6            udmurtia
+
+ПРОПУСКИ (ТОП-5):
+from_region    1
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_routes.csv
+================================================================================
+РАЗМЕР: ~11106 строк, 25 колонок
+
+КОЛОНКИ И ТИПЫ:
+route_id                                str
+route_number                          int64
+direction                               str
+route_name                              str
+operator                                str
+from_stop                               str
+to_stop                                 str
+from_city_inferred                      str
+to_city_inferred                        str
+distance_km                         float64
+service_type                            str
+boarding_rule                           str
+decision_date                           str
+start_by_date                           str
+duration_estimate_hours             float64
+duration_estimate_method                str
+reference_min_price_rub             float64
+reference_price_kind                    str
+fare_estimate_rub                   float64
+fare_estimate_method                    str
+fare_reference_as_of                    str
+has_published_terminal_departure       bool
+has_any_published_stop_departure       bool
+registry_as_of                          str
+route_data_kind                         str
+
+ПЕРВЫЕ 2 СТРОКИ:
+    route_id  route_number direction                              route_name                    operator                from_stop                  to_stop from_city_inferred to_city_inferred  distance_km                                    service_type                         boarding_rule decision_date start_by_date  duration_estimate_hours                    duration_estimate_method  reference_min_price_rub reference_price_kind  fare_estimate_rub                                              fare_estimate_method fare_reference_as_of  has_published_terminal_departure  has_any_published_stop_departure registry_as_of                         route_data_kind
+0  01.09.002          4111   forward  АВ г. Майкоп – Автовокзал г. Черкесска  ИП Бажанов Юрий Алексеевич             АВ г. Майкоп  Автовокзал г. Черкесска             Майкоп              NaN        299.0  регулярные перевозки по нерегулируемым тарифам  в установленных остановочных пунктах    20.02.2025    05.04.2021                      5.4  distance_km / 55 km/h; synthetic heuristic                      NaN                  NaN             2250.0  median perkm ratio in distance bucket; rounded 50 RUB; synthetic              unknown                              True                              True     2026-10-21  registered_route_not_live_availability
+1  01.09.002          4111   reverse  АВ г. Майкоп – Автовокзал г. Черкесска  ИП Бажанов Юрий Алексеевич  Автовокзал г. Черкесска             АВ г. Майкоп                NaN           Майкоп        299.0  регулярные перевозки по нерегулируемым тарифам  в установленных остановочных пунктах    20.02.2025    05.04.2021                      5.4  distance_km / 55 km/h; synthetic heuristic                      NaN                  NaN             2250.0  median perkm ratio in distance bucket; rounded 50 RUB; synthetic              unknown                              True                              True     2026-10-21  registered_route_not_live_availability
+
+ПРОПУСКИ (ТОП-5):
+reference_price_kind       88
+reference_min_price_rub    88
+from_city_inferred         63
+to_city_inferred           63
+decision_date              34
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\bus_stops.csv
+================================================================================
+РАЗМЕР: ~53524 строк, 21 колонок
+
+КОЛОНКИ И ТИПЫ:
+route_id                        str
+direction                       str
+stop_index                    int64
+stop_name                       str
+city_inferred                   str
+stop_region_code              int64
+stop_registry_id              int64
+winter_days_depart              str
+winter_departure_raw            str
+winter_stop_duration_raw        str
+winter_days_arrive              str
+winter_arrival_raw              str
+winter_period                   str
+summer_days_depart              str
+summer_departure_raw            str
+summer_stop_duration_raw    float64
+summer_days_arrive              str
+summer_arrival_raw              str
+summer_period                   str
+registry_as_of                  str
+origin_kind                     str
+
+ПЕРВЫЕ 2 СТРОКИ:
+    route_id direction  stop_index              stop_name city_inferred  stop_region_code  stop_registry_id winter_days_depart winter_departure_raw winter_stop_duration_raw winter_days_arrive winter_arrival_raw  winter_period summer_days_depart summer_departure_raw  summer_stop_duration_raw summer_days_arrive summer_arrival_raw summer_period registry_as_of        origin_kind
+0  07.26.091   forward           1  АВ «Нальчик-Северный»       Нальчик                 7              7022          ежедневно                15:00                        0          ежедневно                нет  круглогодично                NaN                  NaN                       NaN                NaN                NaN           NaN     2026-10-21  registry_observed
+1  07.26.091   forward           2        АВ г. Пятигорск     Пятигорск                26             26015          ежедневно                  нет                        0          ежедневно                нет  круглогодично                NaN                  NaN                       NaN                NaN                NaN           NaN     2026-10-21  registry_observed
+
+ПРОПУСКИ (ТОП-5):
+summer_days_depart          95
+summer_departure_raw        95
+summer_stop_duration_raw    95
+summer_arrival_raw          95
+summer_days_arrive          95
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\cities.csv
+================================================================================
+РАЗМЕР: ~180 строк, 6 колонок
+
+КОЛОНКИ И ТИПЫ:
+city                   str
+region                 str
+oktmo                int64
+latitude           float64
+longitude          float64
+population_2021      int64
+
+ПЕРВЫЕ 2 СТРОКИ:
+          city                region        oktmo   latitude  longitude  population_2021
+0       Абакан    Республика Хакасия  95701000001  53.722305  91.443693           184769
+1  Альметьевск  Республика Татарстан  92608101001  54.901438  52.297123           163512
+
+ПРОПУСКИ (ТОП-5):
+Нет пропусков в первых 100 строках.
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\city_connectivity.csv
+================================================================================
+РАЗМЕР: ~96660 строк, 22 колонок
+
+КОЛОНКИ И ТИПЫ:
+city_from                     str
+region_from                   str
+oktmo_from                  int64
+sber_territory_id_from      int64
+is_capital_from             int64
+population_from             int64
+lat_from                  float64
+lon_from                  float64
+city_to                       str
+region_to                     str
+oktmo_to                    int64
+sber_territory_id_to        int64
+is_capital_to               int64
+population_to               int64
+lat_to                    float64
+lon_to                    float64
+transport_type                str
+distance_km               float64
+distance_hr               float64
+missing_reason                str
+source                        str
+comment                       str
+
+ПЕРВЫЕ 2 СТРОКИ:
+  city_from         region_from   oktmo_from  sber_territory_id_from  is_capital_from  population_from   lat_from   lon_from      city_to                   region_to     oktmo_to  sber_territory_id_to  is_capital_to  population_to     lat_to      lon_to transport_type  distance_km  distance_hr     missing_reason source comment
+0    Абакан  Республика Хакасия  95701000001                     448                1           184769  53.722305  91.443693  Альметьевск        Республика Татарстан  92608101001                   362              0         163512  54.901438   52.297123           road       3146.0         42.4                 CD    OSM      CD
+1    Абакан  Республика Хакасия  95701000001                     448                1           184769  53.722305  91.443693      Анадырь  Чукотский автономный округ  77701000001                  2344              1          13202  64.731403  177.501504           road          NaN          NaN  Маршрут не найден     ND      CD
+
+ПРОПУСКИ (ТОП-5):
+distance_km    3
+distance_hr    3
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\rossbus_departures.csv
+================================================================================
+РАЗМЕР: ~34127 строк, 14 колонок
+
+КОЛОНКИ И ТИПЫ:
+from                  str
+to                    str
+from_slug             str
+to_slug               str
+price_from_rub      int64
+price_to_rub        int64
+trips_on_sale       int64
+data_date             str
+schedule_date         str
+distance_km       float64
+from_station          str
+carriers              str
+page                  str
+departure             str
+
+ПЕРВЫЕ 2 СТРОКИ:
+     from          to from_slug      to_slug  price_from_rub  price_to_rub  trips_on_sale   data_date schedule_date  distance_km                   from_station                                                              carriers                                          page departure
+0  Абакан      Боград    abakan       bograd             760           760              1  2026-10-19    2026-10-19         92.7  Железнодорожный вокзал Абакан                                           Филиал ГПК "ПАТ" г.Кемерово       https://rossbus.ru/buses/abakan/bograd/     15:30
+1  Абакан  Черногорск    abakan  chernogorsk             347           403              5  2026-10-19    2026-10-19         18.1  Железнодорожный вокзал Абакан  ООО "АП Межобластное"; Автоколонна 1967; Филиал ГПК "ПАТ" г.Кемерово  https://rossbus.ru/buses/abakan/chernogorsk/     06:30
+
+ПРОПУСКИ (ТОП-5):
+Нет пропусков в первых 100 строках.
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\rossbus_raw_buses.csv
+================================================================================
+РАЗМЕР: ~46276 строк, 17 колонок
+
+КОЛОНКИ И ТИПЫ:
+from                  str
+to                    str
+from_slug             str
+to_slug               str
+price_from_rub      int64
+price_to_rub        int64
+trips_on_sale       int64
+data_date             str
+schedule_date         str
+distance_km       float64
+from_station          str
+carriers              str
+page                  str
+departure             str
+duration_min      float64
+days                  str
+record_type           str
+
+ПЕРВЫЕ 2 СТРОКИ:
+     from          to from_slug      to_slug  price_from_rub  price_to_rub  trips_on_sale   data_date schedule_date  distance_km                   from_station                                                              carriers                                          page departure  duration_min days record_type
+0  Абакан      Боград    abakan       bograd             760           760              1  2026-10-19    2026-10-19         92.7  Железнодорожный вокзал Абакан                                           Филиал ГПК "ПАТ" г.Кемерово       https://rossbus.ru/buses/abakan/bograd/     15:30          85.0   Вс        ride
+1  Абакан  Черногорск    abakan  chernogorsk             347           403              5  2026-10-19    2026-10-19         18.1  Железнодорожный вокзал Абакан  ООО "АП Межобластное"; Автоколонна 1967; Филиал ГПК "ПАТ" г.Кемерово  https://rossbus.ru/buses/abakan/chernogorsk/     15:30          20.0   Вс        ride
+
+ПРОПУСКИ (ТОП-5):
+duration_min    17
+days            17
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\rossbus_routes.csv
+================================================================================
+РАЗМЕР: ~4537 строк, 15 колонок
+
+КОЛОНКИ И ТИПЫ:
+from                   str
+to                     str
+from_slug              str
+to_slug                str
+price_from_rub       int64
+price_to_rub         int64
+trips_on_sale        int64
+data_date              str
+schedule_date          str
+distance_km        float64
+from_station           str
+carriers               str
+page                   str
+departure_count      int64
+rides_count          int64
+
+ПЕРВЫЕ 2 СТРОКИ:
+     from          to from_slug      to_slug  price_from_rub  price_to_rub  trips_on_sale   data_date schedule_date  distance_km                   from_station                                                              carriers                                          page  departure_count  rides_count
+0  Абакан      Боград    abakan       bograd             760           760              1  2026-10-19    2026-10-19         92.7  Железнодорожный вокзал Абакан                                           Филиал ГПК "ПАТ" г.Кемерово       https://rossbus.ru/buses/abakan/bograd/                1            1
+1  Абакан  Черногорск    abakan  chernogorsk             347           403              5  2026-10-19    2026-10-19         18.1  Железнодорожный вокзал Абакан  ООО "АП Межобластное"; Автоколонна 1967; Филиал ГПК "ПАТ" г.Кемерово  https://rossbus.ru/buses/abakan/chernogorsk/                3            5
+
+ПРОПУСКИ (ТОП-5):
+schedule_date    1
+from_station     1
+carriers         1
+
+================================================================================
+ФАЙЛ: transport_dataset_2026_plus_rossbus\source_route_matches_candidates.csv
+================================================================================
+РАЗМЕР: ~4053 строк, 10 колонок
+
+КОЛОНКИ И ТИПЫ:
+from_city             str
+to_city               str
+rossbus_from_slug     str
+rossbus_to_slug       str
+registry_route_id     str
+registry_direction    str
+registry_from_stop    str
+registry_to_stop      str
+match_quality         str
+note                  str
+
+ПЕРВЫЕ 2 СТРОКИ:
+  from_city    to_city rossbus_from_slug rossbus_to_slug registry_route_id registry_direction registry_from_stop                          registry_to_stop                                    match_quality                                                                             note
+0    Абакан      Кызыл            abakan           kyzyl         17.19.101            reverse       АВ г. Абакан               Остановочный пункт г. Кызыл  CITY_NAMES_MATCH_ONLY_NOT_A_CONFIRMED_SAME_TRIP  Possible overlap only; stations/times must not be transplanted between sources.
+1    Абакан  Минусинск            abakan       minusinsk         19.24.021            forward       АВ г. Абакан  ОП «Оптика» (Дом ветеранов) г. Минусинск  CITY_NAMES_MATCH_ONLY_NOT_A_CONFIRMED_SAME_TRIP  Possible overlap only; stations/times must not be transplanted between sources.
+
+ПРОПУСКИ (ТОП-5):
+Нет пропусков в первых 100 строках.
