@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/hotels.css" />
   <link rel="stylesheet" href="css/itinerary.css" />
   <link rel="stylesheet" href="css/checkout.css" />
+  <link rel="stylesheet" href="css/favorites.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,11 +31,11 @@
       </div>
       <div class="header__controls">
         <div class="trip-summary" id="tripSummary" hidden>
-          <span class="trip-summary__place" id="summaryPlace">—</span>
+          <span class="trip-summary__place" id="summaryPlace">Куда</span>
           <span class="trip-summary__sep">·</span>
-          <span class="trip-summary__meta" id="summaryMeta">—</span>
+          <span class="trip-summary__meta" id="summaryMeta">Когда</span>
           <span class="trip-summary__sep">·</span>
-          <span class="trip-summary__price" id="summaryPrice">—</span>
+          <span class="trip-summary__price" id="summaryPrice">Сколько</span>
         </div>
         <div class="header__menu">
           <button class="btn btn--ghost btn--sm" id="btnMenu" title="Настройки" type="button">⋯</button>
@@ -83,6 +84,9 @@
             Отели <span class="tab__count" id="countHotels" hidden>0</span>
           </button>
           <button class="tab" data-tab="itinerary" type="button">Маршрут</button>
+          <button class="tab" data-tab="favorites" type="button">
+            Избранное <span class="tab__count" id="countFav" hidden>0</span>
+          </button>
           <button class="tab" data-tab="cart" type="button">
             Корзина <span class="tab__count" id="countCart" hidden>•</span>
           </button>
@@ -114,6 +118,15 @@
               <p>Перелёт → трансфер → заселение → обратный путь. Проверю состыковки и покажу риски.</p>
             </div>
             <div id="itineraryRoot"></div>
+          </div>
+
+          <div class="tab-panel" id="panel-favorites">
+            <div class="empty" id="favEmpty">
+              <div class="empty__visual empty__visual--fav"></div>
+              <h3 class="empty__title">Пока пусто</h3>
+              <p>Нажмите ♡ на направлении или отеле — сохранится здесь и не пропадёт при новой поездке.</p>
+            </div>
+            <div id="favRoot"></div>
           </div>
 
           <div class="tab-panel" id="panel-cart">

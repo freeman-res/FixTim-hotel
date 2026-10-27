@@ -17,6 +17,7 @@ import { renderDestinations } from "./destinations.js";
 import { renderHotels, hotelId } from "./hotels.js";
 import { renderItinerary } from "./itinerary.js";
 import { renderCart } from "./checkout.js";
+import { renderFavorites, updateFavBadge } from "./favorites.js";
 
 const STAGE_ORDER = ["inspiration", "destinations", "hotels", "itinerary", "checkout"];
 
@@ -59,13 +60,15 @@ function updateTripSummary() {
   const placeEl = document.getElementById("summaryPlace");
   const metaEl = document.getElementById("summaryMeta");
   const priceEl = document.getElementById("summaryPrice");
-  if (placeEl) placeEl.textContent = place || "Поездка";
+  if (placeEl) placeEl.textContent = place || "Куда";
   if (metaEl) {
     const hotel = state.selected.hotelName;
-    metaEl.textContent = hotel || (state.stage === "destinations" ? "выбор направления" : "сборка");
+    metaEl.textContent =
+      hotel ||
+      (state.stage === "destinations" ? "Когда" : state.stage === "hotels" ? "Жильё" : "Маршрут");
   }
   if (priceEl) {
-    priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "—";
+    priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "Сколько";
   }
 }
 
@@ -115,16 +118,40 @@ function applyResponse(data) {
   else if (data.destinations?.length) switchTab("destinations");
 }
 
+function onFavChange(nowFav) {
+  toast(nowFav ? "Добавлено в избранное" : "Убрано из избранного");
+  updateFavBadge();
+  renderFavorites({
+    onSelectDestination,
+    onSelectHotel,
+    onChange: () => {
+      toast("Убрано из избранного");
+      renderAll();
+    },
+  });
+  // refresh hearts on current lists
+  renderDestinations(onSelectDestination, onFavChange);
+  renderHotels(onSelectHotel, onFavChange);
+}
+
 function renderAll() {
   if (state.messages.length === 0) {
     renderWelcome(sendMessage);
   } else {
     renderMessages();
   }
-  renderDestinations(onSelectDestination);
-  renderHotels(onSelectHotel);
+  renderDestinations(onSelectDestination, onFavChange);
+  renderHotels(onSelectHotel, onFavChange);
   renderItinerary();
   renderCart(onCheckoutConfirmed);
+  renderFavorites({
+    onSelectDestination,
+    onSelectHotel,
+    onChange: () => {
+      toast("Убрано из избранного");
+      renderAll();
+    },
+  });
 }
 
 function onSelectDestination(dest) {
@@ -132,7 +159,7 @@ function onSelectDestination(dest) {
   state.selected.destinationId = id;
   state.selected.destinationName = dest.name;
   updateTripSummary();
-  renderDestinations(onSelectDestination);
+  renderDestinations(onSelectDestination, onFavChange);
   sendMessage(`Выбираю направление: ${dest.name}`);
 }
 
@@ -141,7 +168,7 @@ function onSelectHotel(hotel) {
   state.selected.hotelId = id;
   state.selected.hotelName = hotel.name;
   updateTripSummary();
-  renderHotels(onSelectHotel);
+  renderHotels(onSelectHotel, onFavChange);
   sendMessage(`Выбираю отель: ${hotel.name}`);
 }
 
@@ -217,12 +244,12 @@ function initMenu() {
 
   document.getElementById("btnNewSession")?.addEventListener("click", () => {
     const keepMock = state.isMock;
-    resetState();
+    resetState(); // favorites preserved
     state.isMock = keepMock;
     updateStepper();
     updateTripSummary();
     renderAll();
-    toast("Новая сессия");
+    toast("Новая сессия · избранное сохранено");
     if (menu) menu.hidden = true;
   });
 }
@@ -233,6 +260,7 @@ function boot() {
   initComposer(sendMessage);
   updateStepper();
   updateTripSummary();
+  updateFavBadge();
   renderAll();
 }
 

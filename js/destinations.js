@@ -1,4 +1,8 @@
-import { state } from "./state.js";
+import {
+  state,
+  isFavDestination,
+  toggleFavoriteDestination,
+} from "./state.js";
 import { formatPrice } from "./api.js";
 
 const COVER = {
@@ -8,7 +12,7 @@ const COVER = {
   spb: "cover-spb",
 };
 
-function renderDestinations(onSelect) {
+function renderDestinations(onSelect, onFavChange) {
   const empty = document.getElementById("destEmpty");
   const root = document.getElementById("destCards");
   const count = document.getElementById("countDest");
@@ -33,10 +37,14 @@ function renderDestinations(onSelect) {
     const id = d.id || d.destination_id;
     const cover = COVER[id] || "cover-default";
     const selected = state.selected.destinationId === id;
+    const fav = isFavDestination(d);
     const card = document.createElement("article");
     card.className = "card dest-card" + (selected ? " is-selected" : "");
     card.innerHTML = `
       <div class="dest-card__cover ${cover}">
+        <button type="button" class="fav-btn${fav ? " is-active" : ""}" data-action="fav" title="${fav ? "Убрать из избранного" : "В избранное"}" aria-label="Избранное">
+          ${fav ? "♥" : "♡"}
+        </button>
         <span class="dest-card__cover-emoji">${emojiFor(id)}</span>
         <span class="dest-card__temp">${d.avg_temp_c != null ? d.avg_temp_c + "°C" : "—"}</span>
       </div>
@@ -68,6 +76,11 @@ function renderDestinations(onSelect) {
     card.querySelector('[data-action="select"]').addEventListener("click", (e) => {
       e.stopPropagation();
       onSelect(d);
+    });
+    card.querySelector('[data-action="fav"]').addEventListener("click", (e) => {
+      e.stopPropagation();
+      const nowFav = toggleFavoriteDestination(d);
+      onFavChange?.(nowFav);
     });
     root.appendChild(card);
   }

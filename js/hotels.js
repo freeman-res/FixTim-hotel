@@ -1,11 +1,15 @@
-import { state } from "./state.js";
+import {
+  state,
+  isFavHotel,
+  toggleFavoriteHotel,
+} from "./state.js";
 import { formatPrice } from "./api.js";
 
 function hotelId(h) {
   return h.hotel_id || h.id;
 }
 
-function renderHotels(onSelect) {
+function renderHotels(onSelect, onFavChange) {
   const empty = document.getElementById("hotelsEmpty");
   const root = document.getElementById("hotelCards");
   const count = document.getElementById("countHotels");
@@ -29,6 +33,7 @@ function renderHotels(onSelect) {
   for (const h of list) {
     const id = hotelId(h);
     const selected = state.selected.hotelId === id;
+    const fav = isFavHotel(h);
     const stars = "★".repeat(h.stars || 0) + "☆".repeat(Math.max(0, 5 - (h.stars || 0)));
     const price = h.price_total ?? h.price;
     const card = document.createElement("article");
@@ -38,7 +43,12 @@ function renderHotels(onSelect) {
         <div class="hotel-card__header">
           <div class="hotel-card__thumb">🏨</div>
           <div class="hotel-card__info">
-            <div class="card__title">${esc(h.name)}</div>
+            <div class="card__title-row">
+              <div class="card__title">${esc(h.name)}</div>
+              <button type="button" class="fav-btn fav-btn--inline${fav ? " is-active" : ""}" data-action="fav" title="${fav ? "Убрать из избранного" : "В избранное"}" aria-label="Избранное">
+                ${fav ? "♥" : "♡"}
+              </button>
+            </div>
             <div class="hotel-card__stars">${stars}</div>
             <div class="card__meta">${esc(h.city || "")}${h.rating != null ? " · " + h.rating : ""}</div>
             <div class="hotel-card__amenities">
@@ -66,6 +76,11 @@ function renderHotels(onSelect) {
     card.querySelector('[data-action="select"]').addEventListener("click", (e) => {
       e.stopPropagation();
       onSelect(h);
+    });
+    card.querySelector('[data-action="fav"]').addEventListener("click", (e) => {
+      e.stopPropagation();
+      const nowFav = toggleFavoriteHotel(h);
+      onFavChange?.(nowFav);
     });
     root.appendChild(card);
   }
