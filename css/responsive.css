@@ -1,0 +1,18 @@
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
+  .panel--chat { border-right: none; border-bottom: 1px solid var(--border); min-height: 52vh; }
+  .panel--side { max-height: 42vh; }
+  .stepper .step:not(.is-active):not(.is-done) { display: none; }
+  .welcome__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .header { padding: 0 12px; }
+  .logo { font-size: 18px; }
+  .trip-summary { display: none; }
+  .chat__messages { padding: 14px 12px 8px; }
+  .chat__composer { padding: 10px 12px 12px; }
+  .tab-panels { padding: 12px; }
+  .msg { max-width: 94%; }
+  .chat__hints { display: none; }
+  .step span + * { display: none; }
+}

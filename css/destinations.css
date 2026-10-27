@@ -1,0 +1,25 @@
+.dest-card__cover {
+  height: 86px; position: relative;
+  display: flex; align-items: flex-end; justify-content: space-between;
+  padding: 10px 14px; color: #fff;
+}
+.dest-card__cover-emoji { font-size: 28px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
+.dest-card__temp {
+  font-size: 13px; font-weight: 700;
+  background: rgba(255,255,255,0.22); backdrop-filter: blur(6px);
+  padding: 4px 10px; border-radius: 999px;
+}
+.dest-card__stats {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0;
+  font-size: 13px;
+}
+.dest-card__stat {
+  background: var(--bg); border-radius: var(--radius-sm); padding: 8px 10px;
+}
+.dest-card__stat strong { display: block; font-size: 14px; color: var(--ink); }
+.dest-card__stat span { color: var(--muted); font-size: 11px; }
+.cover-sochi { background: linear-gradient(135deg, #0e41d2 0%, #04cafd 100%); }
+.cover-kaliningrad { background: linear-gradient(135deg, #1a5f4a 0%, #a8e063 100%); }
+.cover-mineralnye { background: linear-gradient(135deg, #5b4b8a 0%, #04cafd 100%); }
+.cover-spb { background: linear-gradient(135deg, #1e3a5f 0%, #7eb8da 100%); }
+.cover-default { background: linear-gradient(135deg, #0e41d2 0%, #a8e063 100%); }
