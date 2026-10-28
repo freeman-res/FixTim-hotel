@@ -1,4 +1,4 @@
-import { state } from "./state.js";
+import { state, addPurchase } from "./state.js";
 import { formatPrice, confirmCheckout } from "./api.js";
 
 function renderCart(onConfirmed) {
@@ -70,6 +70,7 @@ function renderCart(onConfirmed) {
     try {
       const result = await confirmCheckout();
       state.demoBooking = result;
+      try { addPurchase(result); } catch (_) {}
       renderCart(onConfirmed);
       onConfirmed?.(result);
     } catch (err) {

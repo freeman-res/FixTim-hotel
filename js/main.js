@@ -16,6 +16,7 @@ import { renderHotels, hotelId } from "./hotels.js";
 import { renderItinerary } from "./itinerary.js";
 import { renderCart } from "./checkout.js";
 import { renderFavorites, updateFavBadge } from "./favorites.js";
+import { renderHistory, updateHistoryBadge } from "./history.js";
 
 const STAGE_ORDER = ["inspiration", "destinations", "hotels", "itinerary", "checkout"];
 const TAB_TITLES = {
@@ -24,6 +25,7 @@ const TAB_TITLES = {
   itinerary: "Маршрут",
   cart: "Корзина",
   favorites: "Избранное",
+  history: "История",
 };
 
 function isMobile() {
@@ -251,7 +253,8 @@ function updateTripSummary() {
       state.selected.hotelName ||
       (state.stage === "destinations" ? "выбор" : "сборка");
   }
-  if (priceEl) priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "цена";}
+  if (priceEl) priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "—";
+}
 
 let toastTimer;
 function toast(text) {
@@ -333,6 +336,10 @@ function renderAll() {
   try {
     renderFavorites?.(favHandlers());
   } catch (_) {}
+  try {
+    renderHistory();
+    updateHistoryBadge();
+  } catch (_) {}
   updateNavDots();
 }
 
@@ -366,6 +373,10 @@ function onCheckoutConfirmed(result) {
   updateStepper();
   updateNavDots();
   renderMessages();
+  try {
+    renderHistory();
+    updateHistoryBadge();
+  } catch (_) {}
 }
 
 async function sendMessage(text) {

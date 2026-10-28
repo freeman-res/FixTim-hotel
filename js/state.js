@@ -1,5 +1,6 @@
 /** Client state aligned with AgentResponse / ChatResponse */
 const FAV_STORAGE_KEY = "ostrovok_favorites_v1";
+const PURCHASE_HISTORY_KEY = "ostrovok_purchases_v1";
 
 const state = {
   sessionId: null,
@@ -26,6 +27,8 @@ const state = {
   isLoading: false,
   isMock: true,
   demoBooking: null,
+  /** Past DEMO bookings (localStorage) */
+  purchaseHistory: [],
 };
 
 function loadFavorites() {
@@ -128,6 +131,70 @@ function createSessionId() {
   return "sess_" + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
 }
 
+
+function loadPurchaseHistory() {
+  try {
+    const raw = localStorage.getItem(PURCHASE_HISTORY_KEY);
+    if (!raw) return;
+    const parsed = JSON.parse(raw);
+    state.purchaseHistory = Array.isArray(parsed) ? parsed : [];
+  } catch {
+    state.purchaseHistory = [];
+  }
+}
+
+function savePurchaseHistory() {
+  try {
+    localStorage.setItem(PURCHASE_HISTORY_KEY, JSON.stringify(state.purchaseHistory));
+  } catch {
+    /* quota / private mode */
+  }
+}
+
+/**
+ * Snapshot current trip + booking into local history.
+ * @returns {object} saved entry
+ */
+function addPurchase(bookingResult) {
+  const entry = {
+    id: bookingResult?.booking_id || ("LOCAL-" + Date.now().toString(36).toUpperCase()),
+    created_at: new Date().toISOString(),
+    is_demo: bookingResult?.is_demo !== false,
+    message: bookingResult?.message || "",
+    destination: state.selected.destinationName || null,
+    destination_id: state.selected.destinationId || null,
+    hotel: state.selected.hotelName || null,
+    hotel_id: state.selected.hotelId || null,
+    total: state.cart?.total ?? null,
+    currency: state.cart?.currency || "RUB",
+    items: Array.isArray(state.cart?.items)
+      ? state.cart.items.map((it) => ({
+          type: it.type,
+          name: it.name,
+          price: it.price,
+          currency: it.currency || "RUB",
+        }))
+      : [],
+    stage: state.stage,
+  };
+  state.purchaseHistory.unshift(entry);
+  // keep last 50
+  if (state.purchaseHistory.length > 50) {
+    state.purchaseHistory = state.purchaseHistory.slice(0, 50);
+  }
+  savePurchaseHistory();
+  return entry;
+}
+
+function clearPurchaseHistory() {
+  state.purchaseHistory = [];
+  savePurchaseHistory();
+}
+
+function purchaseHistoryCount() {
+  return state.purchaseHistory.length;
+}
+
 /** Clears trip progress; favorites are kept */
 function resetState() {
   state.sessionId = null;
@@ -152,6 +219,7 @@ function resetState() {
 }
 
 loadFavorites();
+loadPurchaseHistory();
 
 export {
   state,
@@ -165,4 +233,9 @@ export {
   destKey,
   hotelKey,
   saveFavorites,
+  loadPurchaseHistory,
+  savePurchaseHistory,
+  addPurchase,
+  clearPurchaseHistory,
+  purchaseHistoryCount,
 };

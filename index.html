@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/itinerary.css" />
   <link rel="stylesheet" href="css/checkout.css" />
   <link rel="stylesheet" href="css/favorites.css" />
+  <link rel="stylesheet" href="css/history.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,11 +54,11 @@
 
     <!-- Trip chip under header -->
     <div class="trip-bar" id="tripSummary" hidden>
-      <span id="summaryPlace">Куда</span>
+      <span id="summaryPlace">—</span>
       <span class="trip-bar__sep">·</span>
-      <span id="summaryMeta">детали</span>
+      <span id="summaryMeta">—</span>
       <span class="trip-bar__sep">·</span>
-      <strong id="summaryPrice">цена</strong>
+      <strong id="summaryPrice">—</strong>
     </div>
 
     <main class="layout">
@@ -106,6 +107,9 @@
           <button class="tab" data-tab="cart" type="button">
             Корзина <span class="tab__count" id="countCart" hidden>•</span>
           </button>
+          <button class="tab" data-tab="history" type="button">
+            История <span class="tab__count" id="countHistory" hidden>0</span>
+          </button>
           <button class="tab" data-tab="favorites" type="button">♡</button>
         </div>
 
@@ -144,6 +148,15 @@
               <p>Здесь будет итог и демо-оплата</p>
             </div>
             <div id="cartRoot"></div>
+          </div>
+
+          <div class="tab-panel" id="panel-history">
+            <div class="empty" id="historyEmpty">
+              <div class="empty__visual empty__visual--history"></div>
+              <h3 class="empty__title">История покупок</h3>
+              <p>После демо-бронирования заказ появится здесь (хранится на этом устройстве)</p>
+            </div>
+            <div id="historyRoot"></div>
           </div>
 
           <div class="tab-panel" id="panel-favorites">
