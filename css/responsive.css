@@ -1,18 +1,405 @@
-@media (max-width: 960px) {
-  .layout { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
-  .panel--chat { border-right: none; border-bottom: 1px solid var(--border); min-height: 52vh; }
-  .panel--side { max-height: 42vh; }
-  .stepper .step:not(.is-active):not(.is-done) { display: none; }
-  .welcome__grid { grid-template-columns: 1fr; }
+/* ============================================================
+   Adaptive layout on CSS Grid
+   Breakpoints: desktop > tablet > phone > small phone
+   ============================================================ */
+
+/* Base: fluid type & safe areas */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
-@media (max-width: 600px) {
-  .header { padding: 0 12px; }
-  .logo { font-size: 18px; }
-  .trip-summary { display: none; }
-  .chat__messages { padding: 14px 12px 8px; }
-  .chat__composer { padding: 10px 12px 12px; }
-  .tab-panels { padding: 12px; }
-  .msg { max-width: 94%; }
-  .chat__hints { display: none; }
-  .step span + * { display: none; }
+
+.app {
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+/* ---------- Large tablet / small laptop ≤ 1100px ---------- */
+@media (max-width: 1100px) {
+  .layout {
+    grid-template-columns: 1fr minmax(300px, 380px);
+  }
+
+  .step {
+    padding: 6px 8px;
+    font-size: 11.5px;
+  }
+
+  .step span + * {
+    /* keep labels on tablet landscape */
+  }
+}
+
+/* ---------- Tablet portrait / narrow desktop ≤ 900px ---------- */
+@media (max-width: 900px) {
+  .header {
+    height: auto;
+    min-height: var(--header-h);
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .header__brand {
+    flex: 1 1 auto;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .header__controls {
+    flex: 0 0 auto;
+  }
+
+  .stepper {
+    flex-wrap: wrap;
+  }
+
+  /* Main: chat on top, results below — CSS Grid */
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr) minmax(240px, 42vh);
+    grid-template-areas:
+      "chat"
+      "side";
+  }
+
+  .panel--chat {
+    grid-area: chat;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    min-height: 0;
+  }
+
+  .panel--side {
+    grid-area: side;
+    max-height: none;
+    min-height: 0;
+  }
+
+  .trip-summary {
+    max-width: 220px;
+  }
+
+  .trip-summary__meta {
+    display: none;
+  }
+
+  /* Welcome scenarios: 3 → auto-fit */
+  .welcome__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+
+  .scenario__cover {
+    height: 96px;
+  }
+}
+
+/* ---------- Large phone / small tablet ≤ 700px ---------- */
+@media (max-width: 700px) {
+  .header {
+    padding: 8px 12px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  /* Stepper: only numbers + active/done labels hidden for inactive */
+  .step:not(.is-active):not(.is-done) span + * {
+    display: none;
+  }
+
+  .step {
+    padding: 5px 7px;
+    gap: 4px;
+    font-size: 11px;
+  }
+
+  .trip-summary {
+    display: none;
+  }
+
+  .layout {
+    grid-template-rows: minmax(0, 1fr) minmax(220px, 40vh);
+  }
+
+  .welcome__title {
+    font-size: 19px;
+  }
+
+  .welcome__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .scenario {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: stretch;
+  }
+
+  .scenario__cover {
+    height: 100%;
+    min-height: 88px;
+  }
+
+  .scenario__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .chat__messages {
+    padding: 14px 12px 8px;
+  }
+
+  .chat__composer {
+    padding: 8px 12px 12px;
+  }
+
+  .chat__hints {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .hint {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .tab {
+    font-size: 11.5px;
+    padding: 10px 4px;
+  }
+
+  .tab-panels {
+    padding: 12px;
+  }
+
+  .msg {
+    max-width: 94%;
+  }
+
+  .msg__meta {
+    padding-left: 42px;
+  }
+
+  .msg--user .msg__meta {
+    padding-right: 42px;
+  }
+}
+
+/* ---------- Phone ≤ 480px ---------- */
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 10px;
+    gap: 8px;
+  }
+
+  .logo {
+    font-size: 17px;
+  }
+
+  /* Compact stepper: circles only */
+  .step span + * {
+    display: none;
+  }
+
+  .step {
+    padding: 4px;
+  }
+
+  .stepper {
+    gap: 0;
+  }
+
+  .layout {
+    grid-template-rows: minmax(0, 1fr) minmax(200px, 38vh);
+  }
+
+  .chat__hints {
+    display: none;
+  }
+
+  .welcome__title {
+    font-size: 17px;
+  }
+
+  .welcome__sub {
+    font-size: 13px;
+  }
+
+  .scenario {
+    grid-template-columns: 84px 1fr;
+  }
+
+  .scenario__cover {
+    min-height: 76px;
+  }
+
+  .scenario__name {
+    font-size: 13px;
+  }
+
+  .scenario__desc {
+    font-size: 11px;
+  }
+
+  .composer {
+    border-radius: 18px;
+    padding: 6px 6px 6px 12px;
+  }
+
+  .composer__input {
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  .composer__send {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tabs {
+    padding: 8px 6px 0;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .tab {
+    flex: 1 0 auto;
+    min-width: 0;
+    font-size: 11px;
+    padding: 9px 6px;
+  }
+
+  .card__title {
+    font-size: 15px;
+  }
+
+  .card__price {
+    font-size: 16px;
+  }
+
+  .dest-card__cover {
+    height: 72px;
+  }
+
+  .hotel-card__thumb {
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+  }
+
+  .empty {
+    padding: 28px 14px;
+  }
+
+  .empty__visual {
+    width: 72px;
+    height: 72px;
+    border-radius: 22px;
+  }
+}
+
+/* ---------- Very small phones ≤ 360px ---------- */
+@media (max-width: 360px) {
+  .logo {
+    font-size: 15px;
+  }
+
+  .header__brand {
+    gap: 8px;
+  }
+
+  .layout {
+    grid-template-rows: minmax(0, 1fr) minmax(180px, 36vh);
+  }
+
+  .scenario {
+    grid-template-columns: 1fr;
+  }
+
+  .scenario__cover {
+    height: 90px;
+    min-height: 90px;
+  }
+
+  .tab {
+    font-size: 10.5px;
+    padding: 8px 4px;
+  }
+}
+
+/* ---------- Landscape phones ---------- */
+@media (max-height: 500px) and (orientation: landscape) {
+  .layout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "chat side";
+  }
+
+  .panel--chat {
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+  }
+
+  .header {
+    padding: 6px 12px;
+  }
+
+  .step span + * {
+    display: none;
+  }
+
+  .welcome__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .scenario {
+    grid-template-columns: 1fr;
+  }
+
+  .scenario__cover {
+    height: 64px;
+    min-height: 64px;
+  }
+
+  .chat__hints {
+    display: none;
+  }
+}
+
+/* ---------- Touch targets ---------- */
+@media (pointer: coarse) {
+  .btn--sm {
+    min-height: 36px;
+    padding: 8px 14px;
+  }
+
+  .hint {
+    min-height: 32px;
+  }
+
+  .tab {
+    min-height: 40px;
+  }
+
+  .composer__send {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* ---------- Safe area (notch / home indicator) ---------- */
+@supports (padding: max(0px)) {
+  .chat__composer {
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+
+  .header {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+  }
 }

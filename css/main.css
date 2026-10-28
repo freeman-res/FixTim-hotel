@@ -107,12 +107,24 @@ button, textarea, input { font-family: inherit; }
 .btn--sm { font-size: 13px; padding: 6px 12px; }
 .btn--block { width: 100%; }
 .layout {
-  display: grid; grid-template-columns: 1fr minmax(340px, 440px);
-  flex: 1; min-height: 0; overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr minmax(340px, 440px);
+  grid-template-rows: 1fr;
+  grid-template-areas: "chat side";
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 .panel { display: flex; flex-direction: column; min-height: 0; }
-.panel--chat { background: transparent; border-right: 1px solid var(--border); }
-.panel--side { background: rgba(255,255,255,0.55); }
+.panel--chat {
+  grid-area: chat;
+  background: transparent;
+  border-right: 1px solid var(--border);
+}
+.panel--side {
+  grid-area: side;
+  background: rgba(255,255,255,0.55);
+}
 .tabs {
   display: flex; gap: 2px; padding: 10px 10px 0;
   background: var(--surface); border-bottom: 1px solid var(--border); flex-shrink: 0;
