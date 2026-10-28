@@ -2,7 +2,9 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#0e41d2" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
   <title>Островок! · Планировщик поездки</title>
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/chat.css" />
@@ -18,31 +20,29 @@
 </head>
 <body>
   <div class="app">
+    <!-- Compact mobile header -->
     <header class="header">
-      <div class="header__brand">
+      <div class="header__left">
         <span class="logo">Островок<span class="logo__bang">!</span></span>
-        <nav class="stepper" id="stepper" aria-label="Этапы поездки">
-          <div class="step is-active" data-stage="inspiration"><span>1</span>Идея</div>
-          <div class="step" data-stage="destinations"><span>2</span>Куда</div>
-          <div class="step" data-stage="hotels"><span>3</span>Жильё</div>
-          <div class="step" data-stage="itinerary"><span>4</span>Маршрут</div>
-          <div class="step" data-stage="checkout"><span>5</span>Оплата</div>
-        </nav>
-      </div>
-      <div class="header__controls">
-        <div class="trip-summary" id="tripSummary" hidden>
-          <span class="trip-summary__place" id="summaryPlace">Куда</span>
-          <span class="trip-summary__sep">·</span>
-          <span class="trip-summary__meta" id="summaryMeta">Когда</span>
-          <span class="trip-summary__sep">·</span>
-          <span class="trip-summary__price" id="summaryPrice">Сколько</span>
+        <div class="stepper" id="stepper" aria-label="Этапы">
+          <div class="step is-active" data-stage="inspiration"><span>1</span></div>
+          <div class="step" data-stage="destinations"><span>2</span></div>
+          <div class="step" data-stage="hotels"><span>3</span></div>
+          <div class="step" data-stage="itinerary"><span>4</span></div>
+          <div class="step" data-stage="checkout"><span>5</span></div>
         </div>
+      </div>
+      <div class="header__right">
+        <button type="button" class="btn-results" id="btnResults" aria-label="Результаты" hidden>
+          <span class="btn-results__label">Результаты</span>
+          <span class="btn-results__badge" id="resultsBadge">0</span>
+        </button>
         <div class="header__menu">
-          <button class="btn btn--ghost btn--sm" id="btnMenu" title="Настройки" type="button">⋯</button>
+          <button class="btn-icon" id="btnMenu" type="button" aria-label="Меню">⋯</button>
           <div class="menu" id="menu" hidden>
             <label class="menu__item">
               <input type="checkbox" id="mockToggle" checked />
-              <span>Mock API (без backend)</span>
+              <span>Mock API</span>
             </label>
             <button type="button" class="menu__item menu__btn" id="btnNewSession">Новая сессия</button>
             <div class="menu__hint">API: <code id="apiBaseLabel">localhost:8000</code></div>
@@ -51,45 +51,62 @@
       </div>
     </header>
 
+    <!-- Trip chip under header -->
+    <div class="trip-bar" id="tripSummary" hidden>
+      <span id="summaryPlace">Куда</span>
+      <span class="trip-bar__sep">·</span>
+      <span id="summaryMeta">детали</span>
+      <span class="trip-bar__sep">·</span>
+      <strong id="summaryPrice">цена</strong>
+    </div>
+
     <main class="layout">
-      <section class="panel panel--chat">
+      <!-- CHAT — primary on mobile -->
+      <section class="panel panel--chat" id="panelChat">
         <div class="chat" id="chat">
           <div class="chat__messages" id="messages"></div>
           <div class="chat__composer">
             <div class="chat__hints" id="hints">
-              <button type="button" class="hint" data-text="Хочу на море на 5 дней в ноябре, из Москвы, бюджет до 80 тысяч">🌊 Море · ноябрь · 80к</button>
-              <button type="button" class="hint" data-text="Выходные в Питере на двоих, интересно и недорого">🏛 Питер · выходные</button>
-              <button type="button" class="hint" data-text="На два дня позже">📅 На 2 дня позже</button>
-              <button type="button" class="hint" data-text="С нами собака">🐕 С собакой</button>
+              <button type="button" class="hint" data-text="Хочу на море на 5 дней в ноябре, из Москвы, бюджет до 80 тысяч">🌊 Море</button>
+              <button type="button" class="hint" data-text="Выходные в Питере на двоих, интересно и недорого">🏛 Питер</button>
+              <button type="button" class="hint" data-text="На два дня позже">📅 +2 дня</button>
+              <button type="button" class="hint" data-text="С нами собака">🐕 Собака</button>
             </div>
             <form class="composer" id="composer">
               <textarea id="input" class="composer__input" rows="1"
-                placeholder="Куда и когда хотите поехать? Можно одним предложением…"
-                autocomplete="off"></textarea>
+                placeholder="Куда и когда поехать?"
+                autocomplete="off" enterkeyhint="send"></textarea>
               <button type="submit" class="btn btn--primary composer__send" id="btnSend" disabled aria-label="Отправить">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </button>
             </form>
-            <p class="composer__note">Синтетические данные помечены · демо хакатона «О!дин запрос»</p>
           </div>
         </div>
       </section>
 
-      <section class="panel panel--side">
+      <!-- RESULTS — sheet on mobile, column on desktop -->
+      <section class="panel panel--side" id="panelSide" aria-hidden="true">
+        <div class="sheet-handle" id="sheetHandle">
+          <div class="sheet-handle__bar"></div>
+          <span class="sheet-handle__hint">потяните вверх или вниз</span>
+          <div class="sheet-handle__title">
+            <span id="sheetTitle">Результаты</span>
+            <button type="button" class="sheet-close" id="btnCloseSheet" aria-label="Закрыть">✕</button>
+          </div>
+        </div>
+
         <div class="tabs" role="tablist">
           <button class="tab is-active" data-tab="destinations" type="button">
-            Направления <span class="tab__count" id="countDest" hidden>0</span>
+            Куда <span class="tab__count" id="countDest" hidden>0</span>
           </button>
           <button class="tab" data-tab="hotels" type="button">
             Отели <span class="tab__count" id="countHotels" hidden>0</span>
           </button>
           <button class="tab" data-tab="itinerary" type="button">Маршрут</button>
-          <button class="tab" data-tab="favorites" type="button">
-            Избранное <span class="tab__count" id="countFav" hidden>0</span>
-          </button>
           <button class="tab" data-tab="cart" type="button">
             Корзина <span class="tab__count" id="countCart" hidden>•</span>
           </button>
+          <button class="tab" data-tab="favorites" type="button">♡</button>
         </div>
 
         <div class="tab-panels">
@@ -97,7 +114,7 @@
             <div class="empty" id="destEmpty">
               <div class="empty__visual empty__visual--dest"></div>
               <h3 class="empty__title">Куда поедем?</h3>
-              <p>Напишите в чат или выберите готовый сценарий — покажу направления с ценой, погодой и временем в пути.</p>
+              <p>Напишите в чат или выберите сценарий</p>
             </div>
             <div class="cards" id="destCards"></div>
           </div>
@@ -105,8 +122,8 @@
           <div class="tab-panel" id="panel-hotels">
             <div class="empty" id="hotelsEmpty">
               <div class="empty__visual empty__visual--hotel"></div>
-              <h3 class="empty__title">Жильё появится здесь</h3>
-              <p>После выбора направления подберу отели с объяснением, почему они подходят.</p>
+              <h3 class="empty__title">Жильё</h3>
+              <p>Появится после выбора направления</p>
             </div>
             <div class="cards" id="hotelCards"></div>
           </div>
@@ -114,33 +131,34 @@
           <div class="tab-panel" id="panel-itinerary">
             <div class="empty" id="itinEmpty">
               <div class="empty__visual empty__visual--route"></div>
-              <h3 class="empty__title">Маршрут соберётся сам</h3>
-              <p>Перелёт → трансфер → заселение → обратный путь. Проверю состыковки и покажу риски.</p>
+              <h3 class="empty__title">Маршрут</h3>
+              <p>Соберу после выбора отеля</p>
             </div>
             <div id="itineraryRoot"></div>
-          </div>
-
-          <div class="tab-panel" id="panel-favorites">
-            <div class="empty" id="favEmpty">
-              <div class="empty__visual empty__visual--fav"></div>
-              <h3 class="empty__title">Пока пусто</h3>
-              <p>Нажмите ♡ на направлении или отеле — сохранится здесь и не пропадёт при новой поездке.</p>
-            </div>
-            <div id="favRoot"></div>
           </div>
 
           <div class="tab-panel" id="panel-cart">
             <div class="empty" id="cartEmpty">
               <div class="empty__visual empty__visual--cart"></div>
-              <h3 class="empty__title">Корзина пока пуста</h3>
-              <p>Когда соберём поездку — здесь будет итоговая стоимость и кнопка демо-бронирования.</p>
+              <h3 class="empty__title">Корзина</h3>
+              <p>Здесь будет итог и демо-оплата</p>
             </div>
             <div id="cartRoot"></div>
+          </div>
+
+          <div class="tab-panel" id="panel-favorites">
+            <div class="empty" id="favEmpty">
+              <div class="empty__visual empty__visual--fav"></div>
+              <h3 class="empty__title">Избранное</h3>
+              <p>♡ на карточке — сохранится здесь</p>
+            </div>
+            <div id="favRoot"></div>
           </div>
         </div>
       </section>
     </main>
 
+<div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
     <div class="toast" id="toast" hidden role="status"></div>
   </div>
   <script type="module" src="js/main.js"></script>
