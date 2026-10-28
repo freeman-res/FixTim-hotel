@@ -14,6 +14,18 @@ cd artifacts/frontend
 python3 -m http.server 5500
 # → http://localhost:5500
 ```
+ 
+запуск по локальной сети
+```
+python3 -m http.server 5500 --bind 0.0.0.0
+# http://IP_устройства_с_которого_запустили:5500
+```
+
+для проверки IP устройства:
+```
+ipconfig
+```
+копируете из строчки  IPv4-адрес. . . . . . . . . . . . :
 
 По умолчанию включён **Mock API** — полный сценарий без backend.
 

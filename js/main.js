@@ -253,8 +253,7 @@ function updateTripSummary() {
       state.selected.hotelName ||
       (state.stage === "destinations" ? "выбор" : "сборка");
   }
-  if (priceEl) priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "—";
-}
+  if (priceEl) priceEl.textContent = hasCart ? formatPrice(state.cart.total) : "цена";}
 
 let toastTimer;
 function toast(text) {
