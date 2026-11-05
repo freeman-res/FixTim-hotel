@@ -1,0 +1,104 @@
+
+
+@media (min-width: 900px) {
+  .app {
+    max-width: 1280px;
+  }
+
+  .header {
+    height: 56px;
+    padding: 0 16px;
+  }
+  .logo { font-size: 20px; }
+  .step {
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 999px;
+  }
+  .step.is-active { background: var(--blue-soft); color: var(--blue); }
+  .step span + * { /* labels via data - we only have numbers in HTML now */ }
+
+  .btn-results { display: none !important; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr minmax(340px, 400px);
+    grid-template-rows: 1fr;
+  }
+
+  .panel--chat {
+    padding-bottom: 0;
+    border-right: 1px solid var(--border);
+  }
+
+
+  .panel--side {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
+    height: 100%;
+    max-height: none;
+    border-radius: 0;
+    box-shadow: none;
+    transform: none !important;
+    z-index: 1;
+    padding-bottom: 0;
+  }
+
+  .sheet-handle { display: none; }
+  .sheet-backdrop { display: none !important; }
+
+  .tabs {
+    padding: 8px 8px 0;
+    background: var(--surface);
+  }
+  .tab {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+  }
+  .tab.is-active {
+    background: var(--bg);
+    border-bottom: none;
+  }
+
+  .welcome__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .scenario {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .scenario__cover {
+    height: 100px;
+    min-height: 100px;
+  }
+
+  .chat__messages { padding: 16px 18px 10px; }
+  .chat__composer { padding: 10px 16px 14px; }
+  .composer__note {
+    display: block;
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .toast {
+    bottom: 24px;
+  }
+}
+
+
+@media (max-width: 899px) and (orientation: landscape) and (max-height: 500px) {
+  .panel--side {
+    height: 100dvh;
+    max-height: 100dvh;
+    border-radius: 0;
+  }
+}

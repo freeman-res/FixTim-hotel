@@ -1,0 +1,33 @@
+.cart { display: flex; flex-direction: column; gap: 14px; }
+.cart__items { display: flex; flex-direction: column; gap: 10px; }
+.cart-item {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; display: flex; justify-content: space-between;
+  align-items: flex-start; gap: 12px; box-shadow: var(--shadow);
+}
+.cart-item__label { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.cart-item__name { font-size: 15px; font-weight: 600; }
+.cart-item__price { font-size: 15px; font-weight: 700; color: var(--blue); white-space: nowrap; }
+.cart__total {
+  background: var(--surface); border: 2px solid var(--blue); border-radius: var(--radius);
+  padding: 16px; display: flex; justify-content: space-between; align-items: center;
+}
+.cart__total-label { font-size: 14px; color: var(--ink-soft); }
+.cart__total-sum { font-size: 22px; font-weight: 800; color: var(--blue); }
+.cart__demo-banner {
+  background: linear-gradient(135deg, #fff8e6, #fff0f0);
+  border: 1px solid #ffe0a3; border-radius: var(--radius);
+  padding: 14px 16px; font-size: 13px; color: #7a5a00; line-height: 1.45;
+}
+.cart__demo-banner strong { display: block; margin-bottom: 4px; font-size: 14px; }
+.cart__actions { display: flex; flex-direction: column; gap: 10px; }
+.cart__confirm { width: 100%; padding: 14px; font-size: 15px; }
+.cart__success { text-align: center; padding: 32px 16px; }
+.cart__success-icon { font-size: 48px; margin-bottom: 12px; }
+.cart__success h3 { font-size: 18px; margin-bottom: 8px; }
+.cart__success p { font-size: 14px; color: var(--ink-soft); line-height: 1.45; }
+.cart__booking-id {
+  display: inline-block; margin-top: 12px; font-family: monospace;
+  background: var(--bg); padding: 6px 12px; border-radius: 8px;
+  font-size: 13px; color: var(--blue);
+}
